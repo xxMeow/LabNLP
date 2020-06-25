@@ -91,7 +91,6 @@ result = loaded_model.predict_classes(X_test)
 # 4. 결과 저장
 data_path = (os.path.dirname(os.path.realpath(__file__)))+'/data/ko_sample.csv'
 loaded_result = pd.read_csv(data_path)
-result = result.astype('float64')
 loaded_result["Predicted"] = result
 # print(loaded_result)
 data_path = (os.path.dirname(os.path.realpath(__file__)))+'/data/ko_result.csv'
