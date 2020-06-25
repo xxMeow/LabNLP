@@ -171,7 +171,7 @@ history = model.fit(X_train, y_train, epochs=15, callbacks=[
 
 # 순환 컨볼루션 신경망 모델
 model = Sequential()
-model.add(Embedding(vocab_size, 128, input_length=max_len))
+model.add(Embedding(20000, 128, input_length=max_len))
 model.add(Dropout(0.2))
 model.add(Conv1D(256,
                  3,
