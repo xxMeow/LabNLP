@@ -16,10 +16,10 @@ import os
 # 1. 실무에 사용할 데이터 준비하기
 data_path = (os.path.dirname(os.path.realpath(__file__)))+'/data/ko_data.csv'
 test_data = pd.read_csv(data_path, encoding='CP949')
+# print(test_data[:5])
 test_data['Sentence'] = test_data['Sentence'].str.replace(
     "[^ㄱ-ㅎㅏ-ㅣ가-힣 ]", "")  # 정규 표현식 수행
-test_data['Sentence'].replace('', np.nan, inplace=True)  # 공백은 Null 값으로 변경
-test_data = test_data.dropna(how='any')  # Null 값 제거
+test_data['Sentence'].replace(np.nan, '', inplace=True)
 stopwords = ['의', '가', '이', '은', '들', '는', '좀', '잘',
              '걍', '과', '도', '를', '으로', '자', '에', '와', '한', '하다']
 our_stopwords = ['을', '이다', '다', '로', '점', '에서', '것', '내', '그',
@@ -57,9 +57,7 @@ tokenizer = Tokenizer(vocab_size)
 tokenizer.fit_on_texts(X_test)
 X_test = tokenizer.texts_to_sequences(X_test)
 
-# 빈 샘플 제거
-drop_test = [index for index, sentence in enumerate(
-    X_test) if len(sentence) < 1]
+test_data['Sentence'].replace(np.nan, '', inplace=True)
 
 # 패딩
 
@@ -87,4 +85,13 @@ loaded_model.compile(optimizer='rmsprop',
 # 3. 모델 사용하기
 result = loaded_model.predict_classes(X_test)
 
-print(result[:50])
+# print(result[:5])
+# print(len(result))
+
+# 4. 결과 저장
+data_path = (os.path.dirname(os.path.realpath(__file__)))+'/data/ko_sample.csv'
+loaded_result = pd.read_csv(data_path)
+loaded_result["Predicted"] = result
+# print(loaded_result)
+data_path = (os.path.dirname(os.path.realpath(__file__)))+'/data/ko_result.csv'
+loaded_result.to_csv(data_path, header=None, index=None)
