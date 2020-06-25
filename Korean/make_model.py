@@ -118,7 +118,7 @@ X_train = pad_sequences(X_train, maxlen=max_len)
 X_test = pad_sequences(X_test, maxlen=max_len)
 
 
-# 모델 생성
+# 순환 신경망 모델 생성
 model = Sequential()
 model.add(Embedding(vocab_size, 100))
 model.add(LSTM(128))
@@ -134,3 +134,62 @@ with open("best_model.json", "w") as json_file:
 model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
 history = model.fit(X_train, y_train, epochs=15, callbacks=[
                     es, mc], batch_size=60, validation_split=0.1)
+
+'''
+from keras.datasets import imdb
+from keras.preprocessing import sequence
+from keras.models import Sequential
+from keras.layers import Dense, Embedding, LSTM
+from keras.layers import Flatten, Dropout
+from keras.layers import Conv1D, GlobalMaxPooling1D, MaxPooling1D
+from keras.callbacks import ModelCheckpoint
+
+# 컨볼루션 신경망 모델 생성
+model = Sequential()
+model.add(Embedding(vocab_size, 128, input_length=max_len))
+model.add(Dropout(0.2))
+model.add(Conv1D(256,
+                 3,
+                 padding='valid',
+                 activation='relu',
+                 strides=1))
+model.add(GlobalMaxPooling1D())
+model.add(Dense(128, activation='relu'))
+model.add(Dropout(0.2))
+model.add(Dense(1, activation='sigmoid'))
+
+es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=4)
+mc = ModelCheckpoint('best_model.h5', monitor='val_acc',
+                     mode='max', verbose=1, save_best_only=True)
+model_json = model.to_json()
+with open("best_model.json", "w") as json_file:
+    json_file.write(model_json)
+
+model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
+history = model.fit(X_train, y_train, epochs=15, callbacks=[
+                    es, mc], batch_size=60, validation_split=0.1)
+
+# 순환 컨볼루션 신경망 모델
+model = Sequential()
+model.add(Embedding(vocab_size, 128, input_length=max_len))
+model.add(Dropout(0.2))
+model.add(Conv1D(256,
+                 3,
+                 padding='valid',
+                 activation='relu',
+                 strides=1))
+model.add(MaxPooling1D(pool_size=4))
+model.add(LSTM(128))
+model.add(Dense(1, activation='sigmoid'))
+ 
+es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=4)
+mc = ModelCheckpoint('best_model.h5', monitor='val_acc',
+                     mode='max', verbose=1, save_best_only=True)
+model_json = model.to_json()
+with open("best_model.json", "w") as json_file:
+    json_file.write(model_json)
+
+model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
+history = model.fit(X_train, y_train, epochs=15, callbacks=[
+                    es, mc], batch_size=60, validation_split=0.1)
+'''
