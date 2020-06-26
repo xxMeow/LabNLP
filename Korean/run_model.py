@@ -12,6 +12,39 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 from tensorflow.keras.models import model_from_json
 import os
+import tensorflow as tf
+import keras.backend as K
+
+
+def f1(y_true, y_pred):
+    y_pred = K.round(y_pred)
+    tp = K.sum(K.cast(y_true*y_pred, 'float'), axis=0)
+    tn = K.sum(K.cast((1-y_true)*(1-y_pred), 'float'), axis=0)
+    fp = K.sum(K.cast((1-y_true)*y_pred, 'float'), axis=0)
+    fn = K.sum(K.cast(y_true*(1-y_pred), 'float'), axis=0)
+
+    p = tp / (tp + fp + K.epsilon())
+    r = tp / (tp + fn + K.epsilon())
+
+    f1 = 2*p*r / (p+r+K.epsilon())
+    f1 = tf.where(tf.math.is_nan(f1), tf.zeros_like(f1), f1)
+    return K.mean(f1)
+
+
+def f1_loss(y_true, y_pred):
+
+    tp = K.sum(K.cast(y_true*y_pred, 'float'), axis=0)
+    tn = K.sum(K.cast((1-y_true)*(1-y_pred), 'float'), axis=0)
+    fp = K.sum(K.cast((1-y_true)*y_pred, 'float'), axis=0)
+    fn = K.sum(K.cast(y_true*(1-y_pred), 'float'), axis=0)
+
+    p = tp / (tp + fp + K.epsilon())
+    r = tp / (tp + fn + K.epsilon())
+
+    f1 = 2*p*r / (p+r+K.epsilon())
+    f1 = tf.where(tf.math.is_nan(f1), tf.zeros_like(f1), f1)
+    return 1 - K.mean(f1)
+
 
 # 1. 실무에 사용할 데이터 준비하기
 data_path = (os.path.dirname(os.path.realpath(__file__)))+'/data/ko_data.csv'
@@ -74,13 +107,13 @@ X_test = pad_sequences(X_test, maxlen=max_len)
 
 
 # 2. 모델 불러오기
-json_file = open("best_model.json", "r")
+json_file = open("best_model_1.json", "r")
 loaded_model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(loaded_model_json)
-loaded_model.load_weights("best_model.h5")
+loaded_model.load_weights("best_model_1.h5")
 loaded_model.compile(optimizer='rmsprop',
-                     loss='binary_crossentropy', metrics=['acc'])
+                     loss=f1_loss, metrics=['acc'])
 
 # 3. 모델 사용하기
 result = loaded_model.predict_classes(X_test)
@@ -93,5 +126,6 @@ data_path = (os.path.dirname(os.path.realpath(__file__)))+'/data/ko_sample.csv'
 loaded_result = pd.read_csv(data_path)
 loaded_result["Predicted"] = result
 # print(loaded_result)
-data_path = (os.path.dirname(os.path.realpath(__file__)))+'/data/ko_result.csv'
+data_path = (os.path.dirname(os.path.realpath(__file__))) + \
+    '/data/ko_result_1.csv'
 loaded_result.to_csv(data_path, index=None)
