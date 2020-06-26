@@ -9,7 +9,14 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.layers import Embedding, Dense, LSTM
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.models import load_model
-from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
+from tensorflow.keras.callbacks import EarlyStopping
+from keras.callbacks import ModelCheckpoint
+from keras.layers import Conv1D, GlobalMaxPooling1D, MaxPooling1D
+from keras.layers import Flatten, Dropout
+from keras.layers import Dense, Embedding, LSTM
+from keras.models import Sequential
+from keras.preprocessing import sequence
+from keras.datasets import imdb
 
 urllib.request.urlretrieve(
     "https://raw.githubusercontent.com/e9t/nsmc/master/ratings_train.txt", filename="ratings_train.txt")
@@ -117,7 +124,7 @@ below_threshold_len(max_len, X_train)
 X_train = pad_sequences(X_train, maxlen=max_len)
 X_test = pad_sequences(X_test, maxlen=max_len)
 
-
+'''
 # 순환 신경망 모델 생성
 model = Sequential()
 model.add(Embedding(vocab_size, 100))
@@ -136,13 +143,6 @@ history = model.fit(X_train, y_train, epochs=15, callbacks=[
                     es, mc], batch_size=60, validation_split=0.1)
 
 '''
-from keras.datasets import imdb
-from keras.preprocessing import sequence
-from keras.models import Sequential
-from keras.layers import Dense, Embedding, LSTM
-from keras.layers import Flatten, Dropout
-from keras.layers import Conv1D, GlobalMaxPooling1D, MaxPooling1D
-from keras.callbacks import ModelCheckpoint
 
 # 컨볼루션 신경망 모델 생성
 model = Sequential()
@@ -169,6 +169,7 @@ model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
 history = model.fit(X_train, y_train, epochs=15, callbacks=[
                     es, mc], batch_size=60, validation_split=0.1)
 
+'''
 # 순환 컨볼루션 신경망 모델
 model = Sequential()
 model.add(Embedding(20000, 128, input_length=max_len))
