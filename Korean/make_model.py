@@ -17,6 +17,39 @@ from keras.layers import Dense, Embedding, LSTM
 from keras.models import Sequential
 from keras.preprocessing import sequence
 from keras.datasets import imdb
+import tensorflow as tf
+import keras.backend as K
+
+
+def f1(y_true, y_pred):
+    y_pred = K.round(y_pred)
+    tp = K.sum(K.cast(y_true*y_pred, 'float'), axis=0)
+    tn = K.sum(K.cast((1-y_true)*(1-y_pred), 'float'), axis=0)
+    fp = K.sum(K.cast((1-y_true)*y_pred, 'float'), axis=0)
+    fn = K.sum(K.cast(y_true*(1-y_pred), 'float'), axis=0)
+
+    p = tp / (tp + fp + K.epsilon())
+    r = tp / (tp + fn + K.epsilon())
+
+    f1 = 2*p*r / (p+r+K.epsilon())
+    f1 = tf.where(tf.math.is_nan(f1), tf.zeros_like(f1), f1)
+    return K.mean(f1)
+
+
+def f1_loss(y_true, y_pred):
+
+    tp = K.sum(K.cast(y_true*y_pred, 'float'), axis=0)
+    tn = K.sum(K.cast((1-y_true)*(1-y_pred), 'float'), axis=0)
+    fp = K.sum(K.cast((1-y_true)*y_pred, 'float'), axis=0)
+    fn = K.sum(K.cast(y_true*(1-y_pred), 'float'), axis=0)
+
+    p = tp / (tp + fp + K.epsilon())
+    r = tp / (tp + fn + K.epsilon())
+
+    f1 = 2*p*r / (p+r+K.epsilon())
+    f1 = tf.where(tf.math.is_nan(f1), tf.zeros_like(f1), f1)
+    return 1 - K.mean(f1)
+
 
 urllib.request.urlretrieve(
     "https://raw.githubusercontent.com/e9t/nsmc/master/ratings_train.txt", filename="ratings_train.txt")
@@ -124,7 +157,6 @@ below_threshold_len(max_len, X_train)
 X_train = pad_sequences(X_train, maxlen=max_len)
 X_test = pad_sequences(X_test, maxlen=max_len)
 
-'''
 # 순환 신경망 모델 생성
 model = Sequential()
 model.add(Embedding(vocab_size, 100))
@@ -132,17 +164,15 @@ model.add(LSTM(128))
 model.add(Dense(1, activation='sigmoid'))
 
 es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=4)
-mc = ModelCheckpoint('best_model.h5', monitor='val_acc',
+mc = ModelCheckpoint('best_model_1.h5', monitor='val_acc',
                      mode='max', verbose=1, save_best_only=True)
 model_json = model.to_json()
-with open("best_model.json", "w") as json_file:
+with open("best_model_1.json", "w") as json_file:
     json_file.write(model_json)
 
-model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
+model.compile(optimizer='rmsprop', loss=f1_loss, metrics=['acc'])
 history = model.fit(X_train, y_train, epochs=15, callbacks=[
                     es, mc], batch_size=60, validation_split=0.1)
-
-'''
 
 # 컨볼루션 신경망 모델 생성
 model = Sequential()
@@ -159,17 +189,16 @@ model.add(Dropout(0.2))
 model.add(Dense(1, activation='sigmoid'))
 
 es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=4)
-mc = ModelCheckpoint('best_model.h5', monitor='val_acc',
+mc = ModelCheckpoint('best_model_2.h5', monitor='val_acc',
                      mode='max', verbose=1, save_best_only=True)
 model_json = model.to_json()
-with open("best_model.json", "w") as json_file:
+with open("best_model_2.json", "w") as json_file:
     json_file.write(model_json)
 
-model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
+model.compile(optimizer='rmsprop', loss=f1_loss, metrics=['acc'])
 history = model.fit(X_train, y_train, epochs=15, callbacks=[
                     es, mc], batch_size=60, validation_split=0.1)
 
-'''
 # 순환 컨볼루션 신경망 모델
 model = Sequential()
 model.add(Embedding(20000, 128, input_length=max_len))
@@ -182,15 +211,14 @@ model.add(Conv1D(256,
 model.add(MaxPooling1D(pool_size=4))
 model.add(LSTM(128))
 model.add(Dense(1, activation='sigmoid'))
- 
+
 es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=4)
-mc = ModelCheckpoint('best_model.h5', monitor='val_acc',
+mc = ModelCheckpoint('best_model_3.h5', monitor='val_acc',
                      mode='max', verbose=1, save_best_only=True)
 model_json = model.to_json()
-with open("best_model.json", "w") as json_file:
+with open("best_model_3.json", "w") as json_file:
     json_file.write(model_json)
 
-model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
+model.compile(optimizer='rmsprop', loss=f1_loss, metrics=['acc'])
 history = model.fit(X_train, y_train, epochs=15, callbacks=[
                     es, mc], batch_size=60, validation_split=0.1)
-'''
