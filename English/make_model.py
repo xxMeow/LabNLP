@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from tensorflow.keras.models import model_from_json
 from tensorflow.keras.models import load_model
 from nltk.corpus import stopwords
 import json
@@ -345,3 +346,31 @@ with open("best_model_3.json", "w") as json_file:
 model.compile(optimizer='rmsprop', loss=f1_loss, metrics=['acc'])
 history = model.fit(X_train, y_train, epochs=15, callbacks=[
                     es, mc], batch_size=60, validation_split=0.1)
+
+
+json_file = open("best_model_1.json", "r")
+loaded_model_json = json_file.read()
+json_file.close()
+loaded_model = model_from_json(loaded_model_json)
+loaded_model.load_weights("best_model_1.h5")
+loaded_model.compile(optimizer='rmsprop',
+                     loss=f1_loss, metrics=['acc'])
+print("\n 테스트 정확도: %.4f" % (loaded_model.evaluate(X_test, y_test)[1]))
+
+json_file = open("best_model_2.json", "r")
+loaded_model_json = json_file.read()
+json_file.close()
+loaded_model = model_from_json(loaded_model_json)
+loaded_model.load_weights("best_model_2.h5")
+loaded_model.compile(optimizer='rmsprop',
+                     loss=f1_loss, metrics=['acc'])
+print("\n 테스트 정확도: %.4f" % (loaded_model.evaluate(X_test, y_test)[1]))
+
+json_file = open("best_model_3.json", "r")
+loaded_model_json = json_file.read()
+json_file.close()
+loaded_model = model_from_json(loaded_model_json)
+loaded_model.load_weights("best_model_3.h5")
+loaded_model.compile(optimizer='rmsprop',
+                     loss=f1_loss, metrics=['acc'])
+print("\n 테스트 정확도: %.4f" % (loaded_model.evaluate(X_test, y_test)[1]))
