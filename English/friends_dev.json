@@ -2,7 +2,7 @@
     [
         {
             "speaker": "Phoebe",
-            "utterance": "Oh my God, he\u0092s lost it. He\u0092s totally lost it.",
+            "utterance": "Oh my God, he's lost it. He's totally lost it.",
             "emotion": "non-neutral",
             "annotation": "0002120"
         },
@@ -20,19 +20,19 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "You\u0092re a genius!",
+            "utterance": "You're a genius!",
             "emotion": "joy",
             "annotation": "0500000"
         },
         {
             "speaker": "Joey",
-            "utterance": "Aww, man, now we won\u0092t be bank buddies!",
+            "utterance": "Aww, man, now we won't be bank buddies!",
             "emotion": "sadness",
             "annotation": "0040100"
         },
         {
             "speaker": "Chandler",
-            "utterance": "Now, there\u0092s two reasons.",
+            "utterance": "Now, there's two reasons.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
@@ -80,7 +80,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "I-I\u0092m sorry, but the moment I touch him, I just wanna throw out my old oath and take a new, dirty one.",
+            "utterance": "I-I'm sorry, but the moment I touch him, I just wanna throw out my old oath and take a new, dirty one.",
             "emotion": "non-neutral",
             "annotation": "2200010"
         },
@@ -92,7 +92,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "Yeah! Yeah! Yeah! Like-like when I\u0092m doing something exciting and I don\u0092t wanna get",
+            "utterance": "Yeah! Yeah! Yeah! Like-like when I'm doing something exciting and I don't wanna get",
             "emotion": "joy",
             "annotation": "2300000"
         },
@@ -124,7 +124,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "What are you talkin\u0092 about? I never left you! You\u0092ve always been my agent!",
+            "utterance": "What are you talkin' about? I never left you! You've always been my agent!",
             "emotion": "surprise",
             "annotation": "0200030"
         },
@@ -174,13 +174,13 @@
         },
         {
             "speaker": "Guy",
-            "utterance": "Yeah, we were\u0085we were just looking around.",
+            "utterance": "Yeah, we were…we were just looking around.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Ross",
-            "utterance": "Oh-oh, you\u0092re-you\u0092re fellow scholars.",
+            "utterance": "Oh-oh, you're-you're fellow scholars.",
             "emotion": "surprise",
             "annotation": "1000031"
         },
@@ -192,61 +192,61 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Perhaps,  perhaps Dr. Chester Stock\u0092s musings on the Smiledon Californicus?",
+            "utterance": "Perhaps,  perhaps Dr. Chester Stock's musings on the Smiledon Californicus?",
             "emotion": "neutral",
             "annotation": "4000001"
         },
         {
             "speaker": "Guy",
-            "utterance": "Uhh\u0085.",
+            "utterance": "Uhh….",
             "emotion": "neutral",
             "annotation": "3000020"
         },
         {
             "speaker": "Ross",
-            "utterance": "Ah\u0085 Ah\u0085Get out of here!  Uh, meeting someone? Or-or are you just here to brush up on Marion\u0092s views on evolution?",
+            "utterance": "Ah… Ah…Get out of here!  Uh, meeting someone? Or-or are you just here to brush up on Marion's views on evolution?",
             "emotion": "non-neutral",
             "annotation": "1000211"
         },
         {
             "speaker": "Woman",
-            "utterance": "Uh, actually I find Marion\u0092s views far too progressionist.",
+            "utterance": "Uh, actually I find Marion's views far too progressionist.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
         {
             "speaker": "Ross",
-            "utterance": "I find Marion\u0092s views far too progressionist.",
+            "utterance": "I find Marion's views far too progressionist.",
             "emotion": "neutral",
             "annotation": "3000011"
         },
         {
             "speaker": "Woman",
-            "utterance": "I\u0092m sorry, who are you?",
+            "utterance": "I'm sorry, who are you?",
             "emotion": "surprise",
             "annotation": "1000040"
         },
         {
             "speaker": "Ross",
-            "utterance": "I\u0092m a professor here uh, Ross\u0085Geller.",
+            "utterance": "I'm a professor here uh, Ross…Geller.",
             "emotion": "neutral",
             "annotation": "3100010"
         },
         {
             "speaker": "Woman",
-            "utterance": "Ross Geller, why do I know that name? It\u0092s uh\u0097Wait!  Did you write this?",
+            "utterance": "Ross Geller, why do I know that name? It's uh—Wait!  Did you write this?",
             "emotion": "surprise",
             "annotation": "1000040"
         },
         {
             "speaker": "Ross",
-            "utterance": "Yes! You\u0092re the person who checked out my book?!",
+            "utterance": "Yes! You're the person who checked out my book?!",
             "emotion": "surprise",
             "annotation": "0000050"
         },
         {
             "speaker": "Woman",
-            "utterance": "Y\u0092know, you look nothing like I would\u0092ve thought. You\u0092re\u0085you\u0092re so young.",
+            "utterance": "Y'know, you look nothing like I would've thought. You're…you're so young.",
             "emotion": "surprise",
             "annotation": "0100040"
         },
@@ -346,7 +346,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "Y\u0092know, Monica and Chandler are married. Ross and Rachel are having a baby. Maybe you and I should do something.",
+            "utterance": "Y'know, Monica and Chandler are married. Ross and Rachel are having a baby. Maybe you and I should do something.",
             "emotion": "neutral",
             "annotation": "4010000"
         },
@@ -382,7 +382,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "I don\u0092t have a key, they took mine to give to you.",
+            "utterance": "I don't have a key, they took mine to give to you.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
@@ -418,7 +418,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "No. She\u0092s going to live with us for eight weeks.",
+            "utterance": "No. She's going to live with us for eight weeks.",
             "emotion": "neutral",
             "annotation": "4100000"
         },
@@ -430,25 +430,25 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Yes! She\u0092s gonna help us take care of the baby! Woo-hoo.",
+            "utterance": "Yes! She's gonna help us take care of the baby! Woo-hoo.",
             "emotion": "joy",
             "annotation": "0500000"
         },
         {
             "speaker": "Ross",
-            "utterance": "What\u0097You\u0092re not serious.",
+            "utterance": "What—You're not serious.",
             "emotion": "non-neutral",
             "annotation": "0001112"
         },
         {
             "speaker": "Ross",
-            "utterance": "I mean she\u0092s a very nice woman, but there is no way we can take eight weeks of her.",
+            "utterance": "I mean she's a very nice woman, but there is no way we can take eight weeks of her.",
             "emotion": "non-neutral",
             "annotation": "1001012"
         },
         {
             "speaker": "Ross",
-            "utterance": "She\u0092ll drive us totally crazy.",
+            "utterance": "She'll drive us totally crazy.",
             "emotion": "disgust",
             "annotation": "0001004"
         },
@@ -474,13 +474,13 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "I don\u0092t know!",
+            "utterance": "I don't know!",
             "emotion": "neutral",
             "annotation": "4001000"
         },
         {
             "speaker": "Joey",
-            "utterance": "It\u0092s not like it\u0092s porn!",
+            "utterance": "It's not like it's porn!",
             "emotion": "neutral",
             "annotation": "3000002"
         },
@@ -492,7 +492,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "Y\u0092know?",
+            "utterance": "Y'know?",
             "emotion": "neutral",
             "annotation": "4001000"
         },
@@ -504,13 +504,13 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "That\u0092s what you say about porn.",
+            "utterance": "That's what you say about porn.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
         {
             "speaker": "Joey",
-            "utterance": "You\u0092re right. Maybe I shouldn\u0092t even go on the call back.",
+            "utterance": "You're right. Maybe I shouldn't even go on the call back.",
             "emotion": "neutral",
             "annotation": "3010001"
         },
@@ -522,7 +522,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "Well that\u0092s true.",
+            "utterance": "Well that's true.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
@@ -540,7 +540,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "My character\u0092s catholic and he falls in love with this Jewish girl.",
+            "utterance": "My character's catholic and he falls in love with this Jewish girl.",
             "emotion": "neutral",
             "annotation": "4100000"
         },
@@ -558,7 +558,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "It\u0092s really sweet and-and tender.",
+            "utterance": "It's really sweet and-and tender.",
             "emotion": "joy",
             "annotation": "2300000"
         }
@@ -566,7 +566,7 @@
     [
         {
             "speaker": "Joey",
-            "utterance": "Hey, what\u0092s up?",
+            "utterance": "Hey, what's up?",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -578,7 +578,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "But you\u0092re still moving in together, right? Because my ad came out today.",
+            "utterance": "But you're still moving in together, right? Because my ad came out today.",
             "emotion": "neutral",
             "annotation": "3001010"
         },
@@ -596,19 +596,19 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "I just figured y\u0092know, after living with you it\u0092d be an interesting change of pace to have a female roommate, y\u0092know?",
+            "utterance": "I just figured y'know, after living with you it'd be an interesting change of pace to have a female roommate, y'know?",
             "emotion": "neutral",
             "annotation": "4100000"
         },
         {
             "speaker": "Joey",
-            "utterance": "Someone I can learn from, someone-someone who\u0092s different than me.",
+            "utterance": "Someone I can learn from, someone-someone who's different than me.",
             "emotion": "neutral",
             "annotation": "4100000"
         },
         {
             "speaker": "Joey",
-            "utterance": "And what\u0092s more different than me; a guy who\u0092s",
+            "utterance": "And what's more different than me; a guy who's",
             "emotion": "neutral",
             "annotation": "4100000"
         }
@@ -756,7 +756,7 @@
     [
         {
             "speaker": "Monica",
-            "utterance": "Well, you\u0092re-you\u0092re sweating.",
+            "utterance": "Well, you're-you're sweating.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -768,7 +768,7 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "Oh that\u0092s sweet. Don\u0092t touch me.",
+            "utterance": "Oh that's sweet. Don't touch me.",
             "emotion": "disgust",
             "annotation": "2000003"
         },
@@ -786,13 +786,13 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "What\u0092s going on?",
+            "utterance": "What's going on?",
             "emotion": "neutral",
             "annotation": "4001000"
         },
         {
             "speaker": "Ross",
-            "utterance": "Chandler\u0092s gone again!",
+            "utterance": "Chandler's gone again!",
             "emotion": "surprise",
             "annotation": "0101030"
         },
@@ -952,13 +952,13 @@
         },
         {
             "speaker": "Bob",
-            "utterance": "It\u0092s Bob actually. Hey, you work up here, can you tell me where this Chandler",
+            "utterance": "It's Bob actually. Hey, you work up here, can you tell me where this Chandler",
             "emotion": "neutral",
             "annotation": "3000101"
         },
         {
             "speaker": "Chandler",
-            "utterance": "Uhh yeah. Yeah, it\u0092s  right, right down there.  Right there, yeah. Can I ask you why?",
+            "utterance": "Uhh yeah. Yeah, it's  right, right down there.  Right there, yeah. Can I ask you why?",
             "emotion": "neutral",
             "annotation": "3001010"
         },
@@ -970,13 +970,13 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "Okay Bob listen uhh, I\u0092m the reason you didn\u0092t get the job up here.",
+            "utterance": "Okay Bob listen uhh, I'm the reason you didn't get the job up here.",
             "emotion": "non-neutral",
             "annotation": "2002001"
         },
         {
             "speaker": "Bob",
-            "utterance": "Toby don\u0092t.",
+            "utterance": "Toby don't.",
             "emotion": "non-neutral",
             "annotation": "2000201"
         },
@@ -988,7 +988,7 @@
         },
         {
             "speaker": "Bob",
-            "utterance": "Toby! I\u0092m not gonna let you cover for him. Anything you say right now will just get me more upset with Chandler!",
+            "utterance": "Toby! I'm not gonna let you cover for him. Anything you say right now will just get me more upset with Chandler!",
             "emotion": "anger",
             "annotation": "0000410"
         },
@@ -1000,7 +1000,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Thank you.  Oh Joey and look at this crib! It\u0092s so cute!",
+            "utterance": "Thank you.  Oh Joey and look at this crib! It's so cute!",
             "emotion": "joy",
             "annotation": "0400010"
         },
@@ -1012,7 +1012,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Are you serious\u0097Really?! It\u0092s in such good condition.",
+            "utterance": "Are you serious—Really?! It's in such good condition.",
             "emotion": "surprise",
             "annotation": "0000050"
         },
@@ -1024,19 +1024,19 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Wow! Whoa-whoa what\u0092s under the covers?",
+            "utterance": "Wow! Whoa-whoa what's under the covers?",
             "emotion": "surprise",
             "annotation": "0100040"
         },
         {
             "speaker": "Joey",
-            "utterance": "I don\u0092t know.",
+            "utterance": "I don't know.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
         {
             "speaker": "Rachel",
-            "utterance": "It\u0092s moving.",
+            "utterance": "It's moving.",
             "emotion": "non-neutral",
             "annotation": "1002020"
         },
@@ -1048,7 +1048,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "It\u0092s still\u0097\u0097It\u0092s got a tail! Get it out of here! Get it out of here!!",
+            "utterance": "It's still——It's got a tail! Get it out of here! Get it out of here!!",
             "emotion": "fear",
             "annotation": "0005000"
         },
@@ -1062,7 +1062,7 @@
     [
         {
             "speaker": "Whitney",
-            "utterance": "Well, I went over to Kyle\u0092s last night to pick up a few things and we got to reminiscing",
+            "utterance": "Well, I went over to Kyle's last night to pick up a few things and we got to reminiscing",
             "emotion": "neutral",
             "annotation": "3020000"
         },
@@ -1080,7 +1080,7 @@
         },
         {
             "speaker": "Kyle",
-            "utterance": "We\u0092re gonna give it another try.",
+            "utterance": "We're gonna give it another try.",
             "emotion": "joy",
             "annotation": "2300000"
         },
@@ -1092,19 +1092,19 @@
         },
         {
             "speaker": "Whitney",
-            "utterance": "I\u0092m gonna work on that.",
+            "utterance": "I'm gonna work on that.",
             "emotion": "neutral",
             "annotation": "3110000"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Oh right, because you\u0092re so capable of change.",
+            "utterance": "Oh right, because you're so capable of change.",
             "emotion": "non-neutral",
             "annotation": "1000202"
         },
         {
             "speaker": "Ross",
-            "utterance": "Y\u0092know, he hums when he pees!",
+            "utterance": "Y'know, he hums when he pees!",
             "emotion": "non-neutral",
             "annotation": "1200011"
         },
@@ -1122,37 +1122,37 @@
         },
         {
             "speaker": "Whitney",
-            "utterance": "We\u0092re so sorry.",
+            "utterance": "We're so sorry.",
             "emotion": "sadness",
             "annotation": "0050000"
         },
         {
             "speaker": "Ross",
-            "utterance": "That\u0092s all right, we-we don\u0092t need you. In fact, hey I\u0092m over it already.",
+            "utterance": "That's all right, we-we don't need you. In fact, hey I'm over it already.",
             "emotion": "non-neutral",
             "annotation": "1020101"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Yeah, and y\u0092know what? I don\u0092t give a tiny rat\u0092s ass.",
+            "utterance": "Yeah, and y'know what? I don't give a tiny rat's ass.",
             "emotion": "anger",
             "annotation": "0010400"
         },
         {
             "speaker": "Kyle",
-            "utterance": "Yeah, we\u0092re gonna go.",
+            "utterance": "Yeah, we're gonna go.",
             "emotion": "neutral",
             "annotation": "3010001"
         },
         {
             "speaker": "Ross",
-            "utterance": "I\u0092m sorry. Ugh, Pheebs, you were, you were right about her. Y\u0092know, she",
+            "utterance": "I'm sorry. Ugh, Pheebs, you were, you were right about her. Y'know, she",
             "emotion": "sadness",
             "annotation": "0030002"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Oh. Y\u0092know, he hums while he does other stuff to.",
+            "utterance": "Oh. Y'know, he hums while he does other stuff to.",
             "emotion": "neutral",
             "annotation": "3100001"
         },
@@ -1164,13 +1164,13 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "And y\u0092know, even if they break up again, you\u0092d better not let him in your sad men\u0092s club!",
+            "utterance": "And y'know, even if they break up again, you'd better not let him in your sad men's club!",
             "emotion": "anger",
             "annotation": "1010300"
         },
         {
             "speaker": "Ross",
-            "utterance": "Divorced men\u0092s club.",
+            "utterance": "Divorced men's club.",
             "emotion": "sadness",
             "annotation": "1030010"
         },
@@ -1184,13 +1184,13 @@
     [
         {
             "speaker": "Joey",
-            "utterance": "Why isn\u0092t that valet back with my Porsche?",
+            "utterance": "Why isn't that valet back with my Porsche?",
             "emotion": "anger",
             "annotation": "1001300"
         },
         {
             "speaker": "Passerby",
-            "utterance": "Maybe because you\u0092ve got the keys?",
+            "utterance": "Maybe because you've got the keys?",
             "emotion": "non-neutral",
             "annotation": "2000201"
         },
@@ -1214,7 +1214,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Well, you ripped the paper out of the court reporter\u0092s machine!!",
+            "utterance": "Well, you ripped the paper out of the court reporter's machine!!",
             "emotion": "anger",
             "annotation": "0000500"
         },
@@ -1306,13 +1306,13 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Well for the regular guy, it\u0092s bad, but Chandler, Oh dear God!",
+            "utterance": "Well for the regular guy, it's bad, but Chandler, Oh dear God!",
             "emotion": "fear",
             "annotation": "0004010"
         },
         {
             "speaker": "Monica",
-            "utterance": "I know! I know! And he totally freaked out and I can\u0092t find him anywhere!",
+            "utterance": "I know! I know! And he totally freaked out and I can't find him anywhere!",
             "emotion": "fear",
             "annotation": "0004010"
         },
@@ -1324,13 +1324,13 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "Well, I\u0092m never gonna listen to you again, that\u0092s for sure!",
+            "utterance": "Well, I'm never gonna listen to you again, that's for sure!",
             "emotion": "anger",
             "annotation": "1000301"
         },
         {
             "speaker": "Monica",
-            "utterance": "\"Y\u0092know, harm can it do if you go and put your name down?\"",
+            "utterance": "\"Y'know, harm can it do if you go and put your name down?\"",
             "emotion": "neutral",
             "annotation": "3001001"
         },
@@ -1342,7 +1342,7 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "Well Rachel\u0092s not here!",
+            "utterance": "Well Rachel's not here!",
             "emotion": "anger",
             "annotation": "1000400"
         }
@@ -1654,7 +1654,7 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "So in your whole life, you've only been with one\u0097\u0097oh.",
+            "utterance": "So in your whole life, you've only been with one——oh.",
             "emotion": "surprise",
             "annotation": "1000040"
         },
@@ -1674,7 +1674,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Oh, it\u0092s already closed, Chris gave me the keys to lock up-what is wrong?",
+            "utterance": "Oh, it's already closed, Chris gave me the keys to lock up-what is wrong?",
             "emotion": "non-neutral",
             "annotation": "1011020"
         },
@@ -1692,25 +1692,25 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "\u0091Cause Carol\u0092s a lesbian.  And, and I\u0092m not one. And apparently it\u0092s not a mix and match situation.",
+            "utterance": "‘Cause Carol's a lesbian.  And, and I'm not one. And apparently it's not a mix and match situation.",
             "emotion": "sadness",
             "annotation": "1040000"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Oh my God! I don\u0092t believe it! Oh, you poor bunny.",
+            "utterance": "Oh my God! I don't believe it! Oh, you poor bunny.",
             "emotion": "surprise",
             "annotation": "0020030"
         },
         {
             "speaker": "Ross",
-            "utterance": "I\u0092m an idiot.",
+            "utterance": "I'm an idiot.",
             "emotion": "disgust",
             "annotation": "0000104"
         },
         {
             "speaker": "Ross",
-            "utterance": "I mean shoulda seen it, I mean Carol and I\u0092d be out and she\u0092d, she\u0092d see some beautiful woman, and, and she\u0092d be Ross y'know look at her, and I\u0092d think, God, my wife is cool!",
+            "utterance": "I mean shoulda seen it, I mean Carol and I'd be out and she'd, she'd see some beautiful woman, and, and she'd be Ross y'know look at her, and I'd think, God, my wife is cool!",
             "emotion": "non-neutral",
             "annotation": "0020012"
         },
@@ -1728,7 +1728,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "I\u0092m sorry.",
+            "utterance": "I'm sorry.",
             "emotion": "sadness",
             "annotation": "0050000"
         },
@@ -1740,7 +1740,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "I mean we\u0092ve been together seven years, she\u0092s the only woman who\u0092s ever loved me, and the only woman I\u0092ve-I\u0092ve ever....",
+            "utterance": "I mean we've been together seven years, she's the only woman who's ever loved me, and the only woman I've-I've ever....",
             "emotion": "sadness",
             "annotation": "1040000"
         },
@@ -1752,25 +1752,25 @@
         },
         {
             "speaker": "Cookie",
-            "utterance": "I\u0092ll do it.",
+            "utterance": "I'll do it.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Joey",
-            "utterance": "No you won\u0092t.",
+            "utterance": "No you won't.",
             "emotion": "neutral",
             "annotation": "3001100"
         },
         {
             "speaker": "Joey",
-            "utterance": "Look he knows he did a terrible thing and I believe him, he\u0092s sorry.",
+            "utterance": "Look he knows he did a terrible thing and I believe him, he's sorry.",
             "emotion": "sadness",
             "annotation": "2030000"
         },
         {
             "speaker": "Joey",
-            "utterance": "But,  you\u0092ve got one more apology to make, all right, you\u0092ve got to apologize to Mary-Angela.",
+            "utterance": "But,  you've got one more apology to make, all right, you've got to apologize to Mary-Angela.",
             "emotion": "non-neutral",
             "annotation": "2010200"
         },
@@ -1788,7 +1788,7 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "You\u0092ve got it.",
+            "utterance": "You've got it.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -1892,7 +1892,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Yeah, right.\u00a0 Sure!",
+            "utterance": "Yeah, right. Sure!",
             "emotion": "anger",
             "annotation": "1000400"
         },
@@ -1960,7 +1960,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "I can\u0092t say.",
+            "utterance": "I can't say.",
             "emotion": "neutral",
             "annotation": "4000100"
         },
@@ -1978,7 +1978,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "I can\u0092t say because he\u0092s famous.",
+            "utterance": "I can't say because he's famous.",
             "emotion": "neutral",
             "annotation": "3011000"
         },
@@ -1996,13 +1996,13 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Okay, okay. It\u0092s James Brolin. James Brolin is the father of my baby.",
+            "utterance": "Okay, okay. It's James Brolin. James Brolin is the father of my baby.",
             "emotion": "non-neutral",
             "annotation": "2201000"
         },
         {
             "speaker": "Chandler",
-            "utterance": "As in Barbara Streisand\u0092s husband James Brolin?",
+            "utterance": "As in Barbara Streisand's husband James Brolin?",
             "emotion": "surprise",
             "annotation": "1000040"
         },
@@ -2152,31 +2152,31 @@
     [
         {
             "speaker": "Joey",
-            "utterance": "The reactor\u0092s gonna blow in three seconds, we\u0092re never gonna make it!",
+            "utterance": "The reactor's gonna blow in three seconds, we're never gonna make it!",
             "emotion": "fear",
             "annotation": "0005000"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "You\u0092ve got to get out of here! Save yourself!",
+            "utterance": "You've got to get out of here! Save yourself!",
             "emotion": "fear",
             "annotation": "0005000"
         },
         {
             "speaker": "Joey",
-            "utterance": "No! I won\u0092t leave you!",
+            "utterance": "No! I won't leave you!",
             "emotion": "fear",
             "annotation": "0014000"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Don\u0092t worry about me, I\u0092m a robot! I\u0092m just a machine!!",
+            "utterance": "Don't worry about me, I'm a robot! I'm just a machine!!",
             "emotion": "non-neutral",
             "annotation": "2011010"
         },
         {
             "speaker": "Joey",
-            "utterance": "No you\u0092re not! Not to me!",
+            "utterance": "No you're not! Not to me!",
             "emotion": "non-neutral",
             "annotation": "0021020"
         },
@@ -2200,7 +2200,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "Yeah, you\u0092re great! Okay, let\u0092s take it from",
+            "utterance": "Yeah, you're great! Okay, let's take it from",
             "emotion": "joy",
             "annotation": "0500000"
         },
@@ -2218,13 +2218,13 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Oh yeah, you\u0092re solid. Yeah, you\u0092re just no me.",
+            "utterance": "Oh yeah, you're solid. Yeah, you're just no me.",
             "emotion": "neutral",
             "annotation": "3100100"
         },
         {
             "speaker": "Joey",
-            "utterance": "Y\u0092know what? I think that\u0092s enough for now. Yeah. I don\u0092t want to be over rehearsed.",
+            "utterance": "Y'know what? I think that's enough for now. Yeah. I don't want to be over rehearsed.",
             "emotion": "neutral",
             "annotation": "4000100"
         },
@@ -2236,31 +2236,31 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "I\u0092ll do it without you!",
+            "utterance": "I'll do it without you!",
             "emotion": "anger",
             "annotation": "0000401"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "I don\u0092t need you or anybody else!",
+            "utterance": "I don't need you or anybody else!",
             "emotion": "anger",
             "annotation": "0000302"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "I\u0092m gonna make it on my own!",
+            "utterance": "I'm gonna make it on my own!",
             "emotion": "anger",
             "annotation": "0100400"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "You\u0092ll see!!",
+            "utterance": "You'll see!!",
             "emotion": "anger",
             "annotation": "0100400"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "You\u0092ll",
+            "utterance": "You'll",
             "emotion": "neutral",
             "annotation": "4000100"
         }
@@ -2348,7 +2348,7 @@
     [
         {
             "speaker": "Dr. Long",
-            "utterance": "We\u0092ll do a quick check.",
+            "utterance": "We'll do a quick check.",
             "emotion": "neutral",
             "annotation": "4000100"
         },
@@ -2384,7 +2384,7 @@
         },
         {
             "speaker": "Dr. Long",
-            "utterance": "You\u0092re about 80 percent effaced, so you\u0092re on your way.",
+            "utterance": "You're about 80 percent effaced, so you're on your way.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -2396,7 +2396,7 @@
         },
         {
             "speaker": "Dr. Long",
-            "utterance": "If you\u0092re anxious there are a few ways to help things along.",
+            "utterance": "If you're anxious there are a few ways to help things along.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -2408,7 +2408,7 @@
         },
         {
             "speaker": "Dr. Long",
-            "utterance": "Actually, they\u0092re things you can do. Just some home remedies, but in my experience I\u0092ve found that some of them are quite effective.",
+            "utterance": "Actually, they're things you can do. Just some home remedies, but in my experience I've found that some of them are quite effective.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -2420,7 +2420,7 @@
         },
         {
             "speaker": "Dr. Long",
-            "utterance": "Okay, there\u0092s an herbal tea you can drink.",
+            "utterance": "Okay, there's an herbal tea you can drink.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -2520,7 +2520,7 @@
         },
         {
             "speaker": "Mark",
-            "utterance": "Oh, hi. It\u0092s Mark.",
+            "utterance": "Oh, hi. It's Mark.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -2580,13 +2580,13 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Okay, I\u0092m gonna get your coat and then I\u0092ll-I\u0092ll put you in a cab.",
+            "utterance": "Okay, I'm gonna get your coat and then I'll-I'll put you in a cab.",
             "emotion": "neutral",
             "annotation": "4001000"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Okay. Oh wait, wait-wait, you\u0092re not gonna come with me?",
+            "utterance": "Okay. Oh wait, wait-wait, you're not gonna come with me?",
             "emotion": "non-neutral",
             "annotation": "1002020"
         },
@@ -2616,13 +2616,13 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "What?! I wh-, what\u0092s wrong?",
+            "utterance": "What?! I wh-, what's wrong?",
             "emotion": "non-neutral",
             "annotation": "1002020"
         },
         {
             "speaker": "Rachel",
-            "utterance": "I\u0092m sorry, I just can\u0092t go to the hospital lookin\u0092 like this.",
+            "utterance": "I'm sorry, I just can't go to the hospital lookin' like this.",
             "emotion": "disgust",
             "annotation": "1000103"
         }
@@ -2630,7 +2630,7 @@
     [
         {
             "speaker": "TV Announcer",
-            "utterance": "Pete Becker is circling the ring now. It looks like, he\u0092s just trying to feel him out. Oh, Bruiser is just...",
+            "utterance": "Pete Becker is circling the ring now. It looks like, he's just trying to feel him out. Oh, Bruiser is just...",
             "emotion": "neutral",
             "annotation": "3101000"
         },
@@ -2642,13 +2642,13 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Oh, I can\u0092t watch this.",
+            "utterance": "Oh, I can't watch this.",
             "emotion": "fear",
             "annotation": "0005000"
         },
         {
             "speaker": "Joey",
-            "utterance": "Check it out, he\u0092s winning!  Pete\u0092s winning!",
+            "utterance": "Check it out, he's winning!  Pete's winning!",
             "emotion": "surprise",
             "annotation": "0200030"
         },
@@ -2678,7 +2678,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Wait, if that\u0092s his favourite area, why is he being so mean to it?",
+            "utterance": "Wait, if that's his favourite area, why is he being so mean to it?",
             "emotion": "surprise",
             "annotation": "0010040"
         },
@@ -2690,13 +2690,13 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Of your last two boyfriends, Richard didn\u0092t want to have kids, and from the looks of it, now Pete can\u0092t.",
+            "utterance": "Of your last two boyfriends, Richard didn't want to have kids, and from the looks of it, now Pete can't.",
             "emotion": "neutral",
             "annotation": "3000020"
         },
         {
             "speaker": "Joey",
-            "utterance": "Dude, you don\u0092t have to brag! We got nothing here!!",
+            "utterance": "Dude, you don't have to brag! We got nothing here!!",
             "emotion": "anger",
             "annotation": "0010310"
         }
@@ -2704,7 +2704,7 @@
     [
         {
             "speaker": "Chandler",
-            "utterance": "Should we tell Rachel there\u0092s an empty private room right next door to hers?",
+            "utterance": "Should we tell Rachel there's an empty private room right next door to hers?",
             "emotion": "neutral",
             "annotation": "3000020"
         },
@@ -2728,13 +2728,13 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "Hey, I\u0092m with you. He even asked me if I thought you\u0092d go out with him.",
+            "utterance": "Hey, I'm with you. He even asked me if I thought you'd go out with him.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Oh! Oh, I think I\u0092m gonna throw up a little bit. What did you say?",
+            "utterance": "Oh! Oh, I think I'm gonna throw up a little bit. What did you say?",
             "emotion": "disgust",
             "annotation": "0001013"
         },
@@ -2752,7 +2752,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "What? I\u0085I just figured since you\u0092re pregnant you\u0092re not gonna be seeing people.",
+            "utterance": "What? I…I just figured since you're pregnant you're not gonna be seeing people.",
             "emotion": "surprise",
             "annotation": "1000040"
         },
@@ -2764,25 +2764,25 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "I didn\u0092t tell him. I didn\u0092t know if you were telling people. This is back when I thought Kash was still people.",
+            "utterance": "I didn't tell him. I didn't know if you were telling people. This is back when I thought Kash was still people.",
             "emotion": "non-neutral",
             "annotation": "2002010"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Good-good, don\u0092t tell him. Don\u0092t tell him. Just have him call me okay?",
+            "utterance": "Good-good, don't tell him. Don't tell him. Just have him call me okay?",
             "emotion": "non-neutral",
             "annotation": "1210100"
         },
         {
             "speaker": "Joey",
-            "utterance": "Rach look, I really don\u0092t think that\u0092s such a great",
+            "utterance": "Rach look, I really don't think that's such a great",
             "emotion": "sadness",
             "annotation": "2030000"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Okay, you go do it! I\u0092ll come back to that set! I\u0092ll meet more actors! I\u0092ll meet \u0091em all!",
+            "utterance": "Okay, you go do it! I'll come back to that set! I'll meet more actors! I'll meet ‘em all!",
             "emotion": "joy",
             "annotation": "0300110"
         }
@@ -2790,19 +2790,19 @@
     [
         {
             "speaker": "Rachel",
-            "utterance": "Ohh, here you are. I was looking for you before. Joshua\u0092s gone so you and Emily are free to go.",
+            "utterance": "Ohh, here you are. I was looking for you before. Joshua's gone so you and Emily are free to go.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
         {
             "speaker": "Ross",
-            "utterance": "That\u0092s okay.",
+            "utterance": "That's okay.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Ross",
-            "utterance": "She\u0092s still in there enjoying her fake party and uh, it\u0092s too late to do any of the things I had planned, so",
+            "utterance": "She's still in there enjoying her fake party and uh, it's too late to do any of the things I had planned, so",
             "emotion": "neutral",
             "annotation": "3010100"
         },
@@ -2888,7 +2888,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Jen, I know this may sound a little\u0085 But uh, would you maybe wanna grab a cup of coffee sometime, or",
+            "utterance": "Jen, I know this may sound a little… But uh, would you maybe wanna grab a cup of coffee sometime, or",
             "emotion": "neutral",
             "annotation": "4001000"
         },
@@ -2962,7 +2962,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Aren\u0092t you gonna go?",
+            "utterance": "Aren't you gonna go?",
             "emotion": "neutral",
             "annotation": "3000020"
         },
@@ -2980,13 +2980,13 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Well, they never have any paper in there y'know. So my rule is \u0091no tissue, no tuschy.\u0092  Well, if everybody\u0092s going.",
+            "utterance": "Well, they never have any paper in there y'know. So my rule is ‘no tissue, no tuschy.'  Well, if everybody's going.",
             "emotion": "neutral",
             "annotation": "3000002"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "No, y'know what don\u0092t close it  \u0091cause the... keys...are in there.",
+            "utterance": "No, y'know what don't close it  ‘cause the... keys...are in there.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
@@ -2998,13 +2998,13 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "What\u0092s going on?",
+            "utterance": "What's going on?",
             "emotion": "neutral",
             "annotation": "3000020"
         },
         {
             "speaker": "Chandler",
-            "utterance": "My lighter\u0092s in there!",
+            "utterance": "My lighter's in there!",
             "emotion": "fear",
             "annotation": "1003010"
         },
@@ -3016,7 +3016,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Although, don\u0092t feel like you can\u0092t visit.",
+            "utterance": "Although, don't feel like you can't visit.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -3028,7 +3028,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "No, no he\u0092s not.",
+            "utterance": "No, no he's not.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -3052,19 +3052,19 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Joey, you can\u0092t keep this to yourself, if you know about this, you have to tell him.",
+            "utterance": "Joey, you can't keep this to yourself, if you know about this, you have to tell him.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
         {
             "speaker": "Joey",
-            "utterance": "It\u0092ll kill him. I mean it\u0092ll, it\u0092ll just kill him.",
+            "utterance": "It'll kill him. I mean it'll, it'll just kill him.",
             "emotion": "non-neutral",
             "annotation": "1020101"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Well, you could wait \u0091til I go to the dentist, maybe",
+            "utterance": "Well, you could wait ‘til I go to the dentist, maybe",
             "emotion": "neutral",
             "annotation": "5000000"
         }
@@ -3096,19 +3096,19 @@
         },
         {
             "speaker": "Carol",
-            "utterance": "Ah yeah, but now it\u0092s Susan and me in Mexico and the hostages coming home.",
+            "utterance": "Ah yeah, but now it's Susan and me in Mexico and the hostages coming home.",
             "emotion": "neutral",
             "annotation": "4010000"
         },
         {
             "speaker": "Ross",
-            "utterance": "Where\u0092s Ben?",
+            "utterance": "Where's Ben?",
             "emotion": "neutral",
             "annotation": "3010010"
         },
         {
             "speaker": "Carol",
-            "utterance": "He\u0092s sleeping.",
+            "utterance": "He's sleeping.",
             "emotion": "neutral",
             "annotation": "4010000"
         },
@@ -3120,7 +3120,7 @@
         },
         {
             "speaker": "Carol",
-            "utterance": "Umm, yeah, actually, Susan\u0092s gonna be home any minute, it\u0092s kinda an anniversary.",
+            "utterance": "Umm, yeah, actually, Susan's gonna be home any minute, it's kinda an anniversary.",
             "emotion": "non-neutral",
             "annotation": "2200010"
         },
@@ -3132,7 +3132,7 @@
         },
         {
             "speaker": "Carol",
-            "utterance": "It\u0092s not that kind of anniversary.",
+            "utterance": "It's not that kind of anniversary.",
             "emotion": "neutral",
             "annotation": "4100000"
         },
@@ -3156,19 +3156,19 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Oh, oh, oh, I\u0092ll get \u0091Rainy Day Bear\u0092!!",
+            "utterance": "Oh, oh, oh, I'll get ‘Rainy Day Bear'!!",
             "emotion": "joy",
             "annotation": "0400010"
         },
         {
             "speaker": "Monica",
-            "utterance": "Because he\u0092ll know what to do?  Oh my God, you\u0092re a genius!",
+            "utterance": "Because he'll know what to do?  Oh my God, you're a genius!",
             "emotion": "joy",
             "annotation": "0400010"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Oh God, oh God, it\u0092s sowed on though.",
+            "utterance": "Oh God, oh God, it's sowed on though.",
             "emotion": "non-neutral",
             "annotation": "2100020"
         },
@@ -3192,7 +3192,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Oh, it\u0092s just like a bloodbath in here today.",
+            "utterance": "Oh, it's just like a bloodbath in here today.",
             "emotion": "non-neutral",
             "annotation": "0120002"
         }
@@ -3310,7 +3310,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "I didn\u0092t do that! Who would\u0092ve done that?!",
+            "utterance": "I didn't do that! Who would've done that?!",
             "emotion": "surprise",
             "annotation": "0000230"
         },
@@ -3334,13 +3334,13 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "Y\u0092know sometimes the good ideas are just right in front of you, aren\u0092t they?",
+            "utterance": "Y'know sometimes the good ideas are just right in front of you, aren't they?",
             "emotion": "non-neutral",
             "annotation": "2000021"
         },
         {
             "speaker": "Joey",
-            "utterance": "Okay, I know it sounds crazy, but I think it might work. Y\u0092know? The only problem is, Carl\u0092s acting is",
+            "utterance": "Okay, I know it sounds crazy, but I think it might work. Y'know? The only problem is, Carl's acting is",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -3352,7 +3352,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "Yeah, he\u0092s the reason I didn\u0092t get that big",
+            "utterance": "Yeah, he's the reason I didn't get that big",
             "emotion": "neutral",
             "annotation": "4000100"
         },
@@ -3372,7 +3372,7 @@
     [
         {
             "speaker": "Waitress",
-            "utterance": "Hey Monica, there\u0092s a customer who wants to complement the chef, should I let him in?",
+            "utterance": "Hey Monica, there's a customer who wants to complement the chef, should I let him in?",
             "emotion": "neutral",
             "annotation": "4100000"
         },
@@ -3408,7 +3408,7 @@
         },
         {
             "speaker": "Janine",
-            "utterance": "Sure, New Year\u0092s Eve is only two weeks away. Can you wait?",
+            "utterance": "Sure, New Year's Eve is only two weeks away. Can you wait?",
             "emotion": "neutral",
             "annotation": "4000010"
         },
@@ -3432,7 +3432,7 @@
         },
         {
             "speaker": "Janine",
-            "utterance": "Joey, you don\u0092t have to count down every time we kiss.",
+            "utterance": "Joey, you don't have to count down every time we kiss.",
             "emotion": "non-neutral",
             "annotation": "1100021"
         },
@@ -3538,7 +3538,7 @@
     [
         {
             "speaker": "Kate",
-            "utterance": "I\u0092m sorry.",
+            "utterance": "I'm sorry.",
             "emotion": "sadness",
             "annotation": "0050000"
         },
@@ -3556,7 +3556,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "I mean, I\u0092ll go to the airport with ya, I-I wanna say good bye.",
+            "utterance": "I mean, I'll go to the airport with ya, I-I wanna say good bye.",
             "emotion": "sadness",
             "annotation": "0050000"
         },
@@ -3568,7 +3568,7 @@
         },
         {
             "speaker": "Kate",
-            "utterance": "Flight\u0092s in an hour. I-I gotta go.",
+            "utterance": "Flight's in an hour. I-I gotta go.",
             "emotion": "sadness",
             "annotation": "1040000"
         },
@@ -3598,7 +3598,7 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "Listen, I ah, I gotta say good bye, and-and I gotta say it quick \u0091cause this is killing me.",
+            "utterance": "Listen, I ah, I gotta say good bye, and-and I gotta say it quick ‘cause this is killing me.",
             "emotion": "sadness",
             "annotation": "0050000"
         },
@@ -3610,31 +3610,31 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "But, you\u0092ve got things you have to do now, and so do I.",
+            "utterance": "But, you've got things you have to do now, and so do I.",
             "emotion": "sadness",
             "annotation": "1040000"
         },
         {
             "speaker": "Joey",
-            "utterance": "And so\u0085 I\u0092m gonna get on this spaceship,  and I\u0092m gonna go to Blargon 7 in search of alternative fuels.",
+            "utterance": "And so… I'm gonna get on this spaceship,  and I'm gonna go to Blargon 7 in search of alternative fuels.",
             "emotion": "sadness",
             "annotation": "2030000"
         },
         {
             "speaker": "Joey",
-            "utterance": "But when I return, 200 years from now, you\u0092ll be long gone.",
+            "utterance": "But when I return, 200 years from now, you'll be long gone.",
             "emotion": "sadness",
             "annotation": "1040000"
         },
         {
             "speaker": "Joey",
-            "utterance": "But I won\u0092t have aged at all.",
+            "utterance": "But I won't have aged at all.",
             "emotion": "neutral",
             "annotation": "4010000"
         },
         {
             "speaker": "Joey",
-            "utterance": "So you tell your great-great-granddaughter to look me up, because Adrienne, baby, I\u0092m gonna want to meet her.",
+            "utterance": "So you tell your great-great-granddaughter to look me up, because Adrienne, baby, I'm gonna want to meet her.",
             "emotion": "neutral",
             "annotation": "3110000"
         },
@@ -3740,7 +3740,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Y\u0092know what, I don\u0092t know how comfortable I am going to see how hot the sex is between some guy and your girlfriend.",
+            "utterance": "Y'know what, I don't know how comfortable I am going to see how hot the sex is between some guy and your girlfriend.",
             "emotion": "disgust",
             "annotation": "0000005"
         },
@@ -3752,7 +3752,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Oh no-no-no, I\u0092m there.",
+            "utterance": "Oh no-no-no, I'm there.",
             "emotion": "neutral",
             "annotation": "3200000"
         },
@@ -3788,19 +3788,19 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "No-no, stay right there.  Gettin\u0092 closer.",
+            "utterance": "No-no, stay right there.  Gettin' closer.",
             "emotion": "neutral",
             "annotation": "4001000"
         },
         {
             "speaker": "Chandler",
-            "utterance": "Okay, okay, but don\u0092t worry, because we also have cereals, muffins, waffles,",
+            "utterance": "Okay, okay, but don't worry, because we also have cereals, muffins, waffles,",
             "emotion": "neutral",
             "annotation": "4100000"
         },
         {
             "speaker": "Joey",
-            "utterance": "Listen also we\u0092re uh, we\u0092re watching the game here Saturday night, if people want to come over.",
+            "utterance": "Listen also we're uh, we're watching the game here Saturday night, if people want to come over.",
             "emotion": "neutral",
             "annotation": "4001000"
         },
@@ -3894,7 +3894,7 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "No! You\u0092re the sweetest!",
+            "utterance": "No! You're the sweetest!",
             "emotion": "joy",
             "annotation": "1400000"
         }
@@ -3914,7 +3914,7 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "Hey, guess what I\u0092m doing tonight.",
+            "utterance": "Hey, guess what I'm doing tonight.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -3926,7 +3926,7 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "I\u0092m checking out the restaurant with Pete.",
+            "utterance": "I'm checking out the restaurant with Pete.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -3952,13 +3952,13 @@
         },
         {
             "speaker": "Carol",
-            "utterance": "Ooh, actually I\u0092ve been making a list of all the women I know who might be into doing this!",
+            "utterance": "Ooh, actually I've been making a list of all the women I know who might be into doing this!",
             "emotion": "joy",
             "annotation": "1300010"
         },
         {
             "speaker": "Ross",
-            "utterance": "Oh.  Wow!  Huh.  Boy!  Well, someone\u0092s been doing their homework.",
+            "utterance": "Oh.  Wow!  Huh.  Boy!  Well, someone's been doing their homework.",
             "emotion": "surprise",
             "annotation": "0100040"
         },
@@ -3970,7 +3970,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Oh, I know.  Y\u0092know, just-just talking about it is getting me kinda",
+            "utterance": "Oh, I know.  Y'know, just-just talking about it is getting me kinda",
             "emotion": "neutral",
             "annotation": "3100010"
         },
@@ -3984,19 +3984,19 @@
     [
         {
             "speaker": "Ross",
-            "utterance": "and then, we could\u0092ve gone from the ceremony to the reception with you in the sidecar!",
+            "utterance": "and then, we could've gone from the ceremony to the reception with you in the sidecar!",
             "emotion": "joy",
             "annotation": "0400100"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Ross, it just wouldn\u0092t have been feasible.",
+            "utterance": "Ross, it just wouldn't have been feasible.",
             "emotion": "neutral",
             "annotation": "4010000"
         },
         {
             "speaker": "Ross",
-            "utterance": "But having a dove place the ring on your finger would\u0092ve been no problem?",
+            "utterance": "But having a dove place the ring on your finger would've been no problem?",
             "emotion": "non-neutral",
             "annotation": "1000121"
         },
@@ -4008,7 +4008,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Yeah! And! And, it was the easiest 400 bucks I\u0092ve ever made.",
+            "utterance": "Yeah! And! And, it was the easiest 400 bucks I've ever made.",
             "emotion": "joy",
             "annotation": "0500000"
         },
@@ -4050,7 +4050,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "It was\u0085really wonderful!",
+            "utterance": "It was…really wonderful!",
             "emotion": "joy",
             "annotation": "0500000"
         },
@@ -4068,19 +4068,19 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "It\u0092s how I imagined I uh, I would ask you to marry me.",
+            "utterance": "It's how I imagined I uh, I would ask you to marry me.",
             "emotion": "neutral",
             "annotation": "4100000"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Well, that would\u0092ve been very hard to say no too.",
+            "utterance": "Well, that would've been very hard to say no too.",
             "emotion": "neutral",
             "annotation": "3110000"
         },
         {
             "speaker": "Ross",
-            "utterance": "It\u0092s a good thing I didn\u0092t do it, because it sounds like it would\u0092ve been a very expensive wedding.  Okay, good night",
+            "utterance": "It's a good thing I didn't do it, because it sounds like it would've been a very expensive wedding.  Okay, good night",
             "emotion": "neutral",
             "annotation": "3110000"
         },
@@ -4092,7 +4092,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Even if the sidecar had a windscreen so your hair wouldn\u0092t get messed up?",
+            "utterance": "Even if the sidecar had a windscreen so your hair wouldn't get messed up?",
             "emotion": "neutral",
             "annotation": "3000020"
         },
@@ -4104,7 +4104,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "That\u0092s all I\u0092m askin\u0092",
+            "utterance": "That's all I'm askin'",
             "emotion": "neutral",
             "annotation": "5000000"
         }
@@ -4112,25 +4112,25 @@
     [
         {
             "speaker": "Rachel",
-            "utterance": "You guys! It was bananas, cream, and beef! I-I just cannot believe that you ate that so that I wouldn\u0092t feel bad!",
+            "utterance": "You guys! It was bananas, cream, and beef! I-I just cannot believe that you ate that so that I wouldn't feel bad!",
             "emotion": "surprise",
             "annotation": "0110030"
         },
         {
             "speaker": "Monica",
-            "utterance": "Well actually, I-I didn\u0092t eat mine. It\u0092s still in the bathroom.",
+            "utterance": "Well actually, I-I didn't eat mine. It's still in the bathroom.",
             "emotion": "non-neutral",
             "annotation": "2010002"
         },
         {
             "speaker": "Joey",
-            "utterance": "No it isn\u0092t, I ate that.",
+            "utterance": "No it isn't, I ate that.",
             "emotion": "neutral",
             "annotation": "4100000"
         },
         {
             "speaker": "Mrs. Geller",
-            "utterance": "Well we left ours in Monica\u0092s bedroom.",
+            "utterance": "Well we left ours in Monica's bedroom.",
             "emotion": "neutral",
             "annotation": "4000001"
         },
@@ -4144,25 +4144,25 @@
     [
         {
             "speaker": "Joey",
-            "utterance": "Okay, so we went to the beach, because Phoebe found out about this lady who knew her mom and dad, and I don\u0092t really know what happened with that.",
+            "utterance": "Okay, so we went to the beach, because Phoebe found out about this lady who knew her mom and dad, and I don't really know what happened with that.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Rachel",
-            "utterance": "And that\u0092s I\u0092m so glad\u0085 there\u0092s no problem.",
+            "utterance": "And that's I'm so glad… there's no problem.",
             "emotion": "joy",
             "annotation": "1400000"
         },
         {
             "speaker": "Joanna",
-            "utterance": "That\u0092s fine, actually I\u0092m on the hiring committee, so there\u0092ll be at least one friendly face.",
+            "utterance": "That's fine, actually I'm on the hiring committee, so there'll be at least one friendly face.",
             "emotion": "neutral",
             "annotation": "3200000"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Ohh! That\u0092s great!",
+            "utterance": "Ohh! That's great!",
             "emotion": "joy",
             "annotation": "0400010"
         },
@@ -4192,7 +4192,7 @@
         },
         {
             "speaker": "Joanna",
-            "utterance": "I mean, no-no-no-no-no, don\u0092t you worry, I\u0092m sure with your qualifications you won\u0092t need to sleep with some guy to get that job.",
+            "utterance": "I mean, no-no-no-no-no, don't you worry, I'm sure with your qualifications you won't need to sleep with some guy to get that job.",
             "emotion": "neutral",
             "annotation": "3000002"
         },
@@ -4224,13 +4224,13 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Yeah but, maybe it\u0092s not what we think. Maybe it\u0092s tell Monica I\u0092m sorry I\u0085drank the last of the milk.",
+            "utterance": "Yeah but, maybe it's not what we think. Maybe it's tell Monica I'm sorry I…drank the last of the milk.",
             "emotion": "neutral",
             "annotation": "4001000"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Or maybe he-he was writing to tell her that-that he\u0092s changed his name, y\u0092know? Tell Monica I\u0092m sorry.",
+            "utterance": "Or maybe he-he was writing to tell her that-that he's changed his name, y'know? Tell Monica I'm sorry.",
             "emotion": "neutral",
             "annotation": "3010010"
         },
@@ -4242,7 +4242,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Don\u0092t be so negative! Good God! Isn\u0092t it possible that Sorry is sitting in there  right now?!",
+            "utterance": "Don't be so negative! Good God! Isn't it possible that Sorry is sitting in there  right now?!",
             "emotion": "non-neutral",
             "annotation": "0000212"
         },
@@ -4254,7 +4254,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Look\u0097Okay, I\u0092m just gonna\u0097I\u0092m gonna have to go find him and bring him back!",
+            "utterance": "Look—Okay, I'm just gonna—I'm gonna have to go find him and bring him back!",
             "emotion": "neutral",
             "annotation": "3002000"
         },
@@ -4316,37 +4316,37 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "Oh, I\u0092m sorry. Thank you Chandler.",
+            "utterance": "Oh, I'm sorry. Thank you Chandler.",
             "emotion": "non-neutral",
             "annotation": "1120100"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Anyway, there\u0092s this big charity ball this weekend and Ralph Lauren bought a table, so I kinda have to go",
+            "utterance": "Anyway, there's this big charity ball this weekend and Ralph Lauren bought a table, so I kinda have to go",
             "emotion": "neutral",
             "annotation": "4100000"
         },
         {
             "speaker": "Monica",
-            "utterance": "What\u0092s the charity?",
+            "utterance": "What's the charity?",
             "emotion": "neutral",
             "annotation": "4000010"
         },
         {
             "speaker": "Rachel",
-            "utterance": "I don\u0092t know, something either trees or disease\u0097Ralph mumbles a lot.",
+            "utterance": "I don't know, something either trees or disease—Ralph mumbles a lot.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Monica",
-            "utterance": "Does Ralph mumble when you\u0092re not paying attention?",
+            "utterance": "Does Ralph mumble when you're not paying attention?",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Yeah! It\u0092s weird. But the thing is need to find a date.",
+            "utterance": "Yeah! It's weird. But the thing is need to find a date.",
             "emotion": "surprise",
             "annotation": "1000040"
         },
@@ -4394,13 +4394,13 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "I just found out that Elizabeth\u0092s dad wants to meet me.",
+            "utterance": "I just found out that Elizabeth's dad wants to meet me.",
             "emotion": "non-neutral",
             "annotation": "2100011"
         },
         {
             "speaker": "Chandler",
-            "utterance": "Wait a minute, hold the phone! You\u0092re not Elizabeth\u0092s dad?!",
+            "utterance": "Wait a minute, hold the phone! You're not Elizabeth's dad?!",
             "emotion": "surprise",
             "annotation": "0000050"
         },
@@ -4418,7 +4418,7 @@
         },
         {
             "speaker": "All",
-            "utterance": "Of course we\u0092ll help! Yeah! We\u0092ll be here!",
+            "utterance": "Of course we'll help! Yeah! We'll be here!",
             "emotion": "joy",
             "annotation": "1300010"
         },
@@ -4516,7 +4516,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "It\u0097y\u0092know what?",
+            "utterance": "It—y'know what?",
             "emotion": "neutral",
             "annotation": "4000010"
         },
@@ -4622,7 +4622,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Hey, how\u0092s\u0085how\u0092s the uh, miracle chair?",
+            "utterance": "Hey, how's…how's the uh, miracle chair?",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -4634,7 +4634,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Yeah? Wow! Y\u0092know, that this thing has speakers in the headrest!",
+            "utterance": "Yeah? Wow! Y'know, that this thing has speakers in the headrest!",
             "emotion": "surprise",
             "annotation": "0100040"
         },
@@ -4806,13 +4806,13 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Hi.  Umm, I think there\u0092s something that we really need to talk about.",
+            "utterance": "Hi.  Umm, I think there's something that we really need to talk about.",
             "emotion": "non-neutral",
             "annotation": "1012100"
         },
         {
             "speaker": "Ross",
-            "utterance": "I think we do. Why don\u0092t we go inside?  Look uh, I know why you\u0092re here.",
+            "utterance": "I think we do. Why don't we go inside?  Look uh, I know why you're here.",
             "emotion": "sadness",
             "annotation": "1031000"
         },
@@ -4836,7 +4836,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Okay.  Uh, Ross and Rachel. Rachel and Ross. That\u0092s been one heck of a see-saw hasn\u0092t it?",
+            "utterance": "Okay.  Uh, Ross and Rachel. Rachel and Ross. That's been one heck of a see-saw hasn't it?",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -4848,7 +4848,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "I mean look, that-that one night we had was fun and\u0085and certainly passionate, but don\u0092t you think it\u0092s better if we just stayed friends?",
+            "utterance": "I mean look, that-that one night we had was fun and…and certainly passionate, but don't you think it's better if we just stayed friends?",
             "emotion": "non-neutral",
             "annotation": "2021000"
         },
@@ -4872,7 +4872,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Y\u0092know what?",
+            "utterance": "Y'know what?",
             "emotion": "neutral",
             "annotation": "4000010"
         },
@@ -4884,7 +4884,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "I mean I\u0092d-I\u0092d be okay with that.",
+            "utterance": "I mean I'd-I'd be okay with that.",
             "emotion": "neutral",
             "annotation": "3001010"
         },
@@ -4896,7 +4896,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Okay, y\u0092know what? Can I, can I talk now?",
+            "utterance": "Okay, y'know what? Can I, can I talk now?",
             "emotion": "non-neutral",
             "annotation": "2000210"
         },
@@ -4908,7 +4908,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "I\u0092m pregnant.  Ross?  Ross?  Okay, whenever you\u0092re ready.  And you\u0092re the father by the way\u0097but you got that",
+            "utterance": "I'm pregnant.  Ross?  Ross?  Okay, whenever you're ready.  And you're the father by the way—but you got that",
             "emotion": "anger",
             "annotation": "0100310"
         }
@@ -4916,7 +4916,7 @@
     [
         {
             "speaker": "Rachel",
-            "utterance": "We should defiantly play football more often. Maybe there\u0092s a like league we could join or something.",
+            "utterance": "We should defiantly play football more often. Maybe there's a like league we could join or something.",
             "emotion": "neutral",
             "annotation": "3200000"
         },
@@ -5038,19 +5038,19 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "I just can\u0092t decide who she looks more alike, you or Rachel?",
+            "utterance": "I just can't decide who she looks more alike, you or Rachel?",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Ross",
-            "utterance": "Oh what are you kidding? She\u0092s gorgeous, it\u0092s all Rachel.",
+            "utterance": "Oh what are you kidding? She's gorgeous, it's all Rachel.",
             "emotion": "non-neutral",
             "annotation": "2200010"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "I\u0092m sorry, for the last time, why aren\u0092t you two together again?",
+            "utterance": "I'm sorry, for the last time, why aren't you two together again?",
             "emotion": "neutral",
             "annotation": "4000001"
         },
@@ -5062,7 +5062,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "I know, because you\u0092re not in that place.",
+            "utterance": "I know, because you're not in that place.",
             "emotion": "neutral",
             "annotation": "4010000"
         },
@@ -5074,19 +5074,19 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "It\u0092s\u0085it\u0092s complicated okay?",
+            "utterance": "It's…it's complicated okay?",
             "emotion": "sadness",
             "annotation": "1040000"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Yeah that\u0092s true. Yeah, you love her. You always have. You have a child together. There is no right answer.",
+            "utterance": "Yeah that's true. Yeah, you love her. You always have. You have a child together. There is no right answer.",
             "emotion": "neutral",
             "annotation": "4010000"
         },
         {
             "speaker": "Ross",
-            "utterance": "Look, we\u0092ve been together.",
+            "utterance": "Look, we've been together.",
             "emotion": "sadness",
             "annotation": "2030000"
         },
@@ -5104,13 +5104,13 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "It\u0092s just if-if we got together again and it didn\u0092t work out\u0085I could never do that to Emma.",
+            "utterance": "It's just if-if we got together again and it didn't work out…I could never do that to Emma.",
             "emotion": "sadness",
             "annotation": "2030000"
         },
         {
             "speaker": "Ross",
-            "utterance": "I mean she-she thinking everything\u0097 Oh that\u0092s\u0085now me.",
+            "utterance": "I mean she-she thinking everything— Oh that's…now me.",
             "emotion": "sadness",
             "annotation": "2030000"
         },
@@ -5122,7 +5122,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Since Rachel and I we\u0092re doing really, we\u0092re doing really well right now.",
+            "utterance": "Since Rachel and I we're doing really, we're doing really well right now.",
             "emotion": "non-neutral",
             "annotation": "1220000"
         },
@@ -5140,7 +5140,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Right.  Or you might get everything you\u0092ve wanted since you were fifteen.",
+            "utterance": "Right.  Or you might get everything you've wanted since you were fifteen.",
             "emotion": "neutral",
             "annotation": "3100001"
         }
@@ -5154,19 +5154,19 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "You don\u0092t have a",
+            "utterance": "You don't have a",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Oh Ross you\u0092re so tense! You just gotta relax, okay? Just need to relax all right? Just need to relax",
+            "utterance": "Oh Ross you're so tense! You just gotta relax, okay? Just need to relax all right? Just need to relax",
             "emotion": "neutral",
             "annotation": "3000011"
         },
         {
             "speaker": "Ross",
-            "utterance": "What-what are you doing?! Are you\u0097Okay that\u0092s not funny! Just stop horsing around!",
+            "utterance": "What-what are you doing?! Are you—Okay that's not funny! Just stop horsing around!",
             "emotion": "non-neutral",
             "annotation": "0000212"
         },
@@ -5196,7 +5196,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "I was talking to myself! You\u0092re going down!",
+            "utterance": "I was talking to myself! You're going down!",
             "emotion": "non-neutral",
             "annotation": "1101011"
         }
@@ -5356,19 +5356,19 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "Damn those robots, they\u0092re supposed to be our",
+            "utterance": "Damn those robots, they're supposed to be our",
             "emotion": "non-neutral",
             "annotation": "1000211"
         },
         {
             "speaker": "Joey",
-            "utterance": "Anyway, it wasn\u0092t the robot, it was the guy who controls him.",
+            "utterance": "Anyway, it wasn't the robot, it was the guy who controls him.",
             "emotion": "neutral",
             "annotation": "4000001"
         },
         {
             "speaker": "Joey",
-            "utterance": "Yeah, he doesn\u0092t like me.",
+            "utterance": "Yeah, he doesn't like me.",
             "emotion": "non-neutral",
             "annotation": "2010101"
         },
@@ -5392,25 +5392,25 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Well, why don\u0092t you just get him fired?",
+            "utterance": "Well, why don't you just get him fired?",
             "emotion": "non-neutral",
             "annotation": "2000021"
         },
         {
             "speaker": "Joey",
-            "utterance": "I may have to, I hate to do it, but I\u0092m the star!",
+            "utterance": "I may have to, I hate to do it, but I'm the star!",
             "emotion": "non-neutral",
             "annotation": "1000211"
         },
         {
             "speaker": "Joey",
-            "utterance": "Y\u0092know?",
+            "utterance": "Y'know?",
             "emotion": "neutral",
             "annotation": "3000011"
         },
         {
             "speaker": "Joey",
-            "utterance": "There\u0092s a limit to how many sandwiches I can eat off the floor.",
+            "utterance": "There's a limit to how many sandwiches I can eat off the floor.",
             "emotion": "neutral",
             "annotation": "3000101"
         },
@@ -5428,7 +5428,7 @@
         },
         {
             "speaker": "Estelle",
-            "utterance": "Joe! I\u0092m glad I found ya, I got an audition for ya!",
+            "utterance": "Joe! I'm glad I found ya, I got an audition for ya!",
             "emotion": "non-neutral",
             "annotation": "2200010"
         },
@@ -5440,25 +5440,25 @@
         },
         {
             "speaker": "Estelle",
-            "utterance": "The thing is it\u0092s kinda on the Q.T.",
+            "utterance": "The thing is it's kinda on the Q.T.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Estelle",
-            "utterance": "The actor who has the part doesn\u0092t know he might be fired.",
+            "utterance": "The actor who has the part doesn't know he might be fired.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Estelle",
-            "utterance": "It\u0092s the lead in a series, Mac and C.H.E.E.S.E.",
+            "utterance": "It's the lead in a series, Mac and C.H.E.E.S.E.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Joey",
-            "utterance": "I\u0092m the lead in Mac and C.H.E.E.S.E.!!",
+            "utterance": "I'm the lead in Mac and C.H.E.E.S.E.!!",
             "emotion": "non-neutral",
             "annotation": "2200100"
         },
@@ -5484,7 +5484,7 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "I\u0092m not crazy about babies. I\u0092m crazy about us.",
+            "utterance": "I'm not crazy about babies. I'm crazy about us.",
             "emotion": "non-neutral",
             "annotation": "1200110"
         },
@@ -5496,25 +5496,25 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "Look, we\u0092ve always talked about having babies someday.",
+            "utterance": "Look, we've always talked about having babies someday.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Chandler",
-            "utterance": "I\u0092m not saying it has to be right now, but I\u0092m starting to think that we can handle it.",
+            "utterance": "I'm not saying it has to be right now, but I'm starting to think that we can handle it.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
         {
             "speaker": "Chandler",
-            "utterance": "We\u0092re good.",
+            "utterance": "We're good.",
             "emotion": "neutral",
             "annotation": "3200000"
         },
         {
             "speaker": "Chandler",
-            "utterance": "We\u0092re really good.",
+            "utterance": "We're really good.",
             "emotion": "joy",
             "annotation": "2300000"
         }
@@ -5590,13 +5590,13 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Okay, in about ten seconds you\u0092re gonna see him kiss me.",
+            "utterance": "Okay, in about ten seconds you're gonna see him kiss me.",
             "emotion": "joy",
             "annotation": "2300000"
         },
         {
             "speaker": "Ross",
-            "utterance": "And in about five seconds you\u0092re gonna see why.",
+            "utterance": "And in about five seconds you're gonna see why.",
             "emotion": "neutral",
             "annotation": "3000011"
         },
@@ -5608,7 +5608,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Okay, get ready to see some beggin\u0092!",
+            "utterance": "Okay, get ready to see some beggin'!",
             "emotion": "non-neutral",
             "annotation": "2110100"
         },
@@ -5626,7 +5626,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Now I\u0092m so happy.",
+            "utterance": "Now I'm so happy.",
             "emotion": "joy",
             "annotation": "0500000"
         },
@@ -5644,7 +5644,7 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "That\u0092s the magic story you use when you wanna have sex!",
+            "utterance": "That's the magic story you use when you wanna have sex!",
             "emotion": "non-neutral",
             "annotation": "2200100"
         },
@@ -5744,7 +5744,7 @@
     [
         {
             "speaker": "Phoebe",
-            "utterance": "I can\u0092t believe this! How long as this been going on?",
+            "utterance": "I can't believe this! How long as this been going on?",
             "emotion": "surprise",
             "annotation": "1000130"
         },
@@ -5762,19 +5762,19 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "Phoebe, don\u0092t get upset!",
+            "utterance": "Phoebe, don't get upset!",
             "emotion": "non-neutral",
             "annotation": "1011110"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Okay\u0097Oop! Too late! I\u0092m leaving! Come on Chandler let\u0092s go!",
+            "utterance": "Okay—Oop! Too late! I'm leaving! Come on Chandler let's go!",
             "emotion": "anger",
             "annotation": "0000302"
         },
         {
             "speaker": "Chandler",
-            "utterance": "Well, Phoebe I thought I\u0092d\u0097\u0097Yeah, what the hell.",
+            "utterance": "Well, Phoebe I thought I'd——Yeah, what the hell.",
             "emotion": "neutral",
             "annotation": "3000200"
         }
@@ -5978,13 +5978,13 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "That\u0092s funny.",
+            "utterance": "That's funny.",
             "emotion": "joy",
             "annotation": "0500000"
         },
         {
             "speaker": "Ross",
-            "utterance": "Hey Pheebs, could you please not put your feet up on my new\u0085\u0085old sheet?",
+            "utterance": "Hey Pheebs, could you please not put your feet up on my new……old sheet?",
             "emotion": "disgust",
             "annotation": "0000005"
         },
@@ -6038,7 +6038,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Wow! Oh my God, well if they\u0092ve ripped off our table ours must be much more than one and fifty dollars!",
+            "utterance": "Wow! Oh my God, well if they've ripped off our table ours must be much more than one and fifty dollars!",
             "emotion": "non-neutral",
             "annotation": "0100220"
         },
@@ -6050,7 +6050,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Well this doesn\u0092t even smell like opium.",
+            "utterance": "Well this doesn't even smell like opium.",
             "emotion": "disgust",
             "annotation": "0000014"
         },
@@ -6062,7 +6062,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Oh Ross, calm down, I\u0092ll give you the 80 cents.",
+            "utterance": "Oh Ross, calm down, I'll give you the 80 cents.",
             "emotion": "non-neutral",
             "annotation": "1200002"
         }
@@ -6204,13 +6204,13 @@
         },
         {
             "speaker": "Joey",
-            "utterance": "Y\u0092know, if they knew what they were doing they probably didn\u0092t give you real names either.",
+            "utterance": "Y'know, if they knew what they were doing they probably didn't give you real names either.",
             "emotion": "neutral",
             "annotation": "4000001"
         },
         {
             "speaker": "Monica",
-            "utterance": "Okay, maybe people give out fake numbers, but they don\u0092t give out fake names.",
+            "utterance": "Okay, maybe people give out fake numbers, but they don't give out fake names.",
             "emotion": "non-neutral",
             "annotation": "2000111"
         },
@@ -6228,7 +6228,7 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "I still don\u0092t get it, we didn\u0092t do anything wrong.",
+            "utterance": "I still don't get it, we didn't do anything wrong.",
             "emotion": "surprise",
             "annotation": "0010031"
         },
@@ -6264,13 +6264,13 @@
         },
         {
             "speaker": "Cliff",
-            "utterance": "No, I\u0092m sorry. It\u0092s just my foot itches like crazy.",
+            "utterance": "No, I'm sorry. It's just my foot itches like crazy.",
             "emotion": "neutral",
             "annotation": "3020000"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Oh, I\u0092ll get it.",
+            "utterance": "Oh, I'll get it.",
             "emotion": "neutral",
             "annotation": "4000010"
         },
@@ -6282,7 +6282,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Relax, it\u0092s not like we\u0092re forking.",
+            "utterance": "Relax, it's not like we're forking.",
             "emotion": "non-neutral",
             "annotation": "2100011"
         }
@@ -6290,7 +6290,7 @@
     [
         {
             "speaker": "Monica",
-            "utterance": "Look at it! Ohhh! Wallpaper\u0092s a little faded, that\u0092s okay. Carpet\u0092s a little loose. Hardwood floors!!",
+            "utterance": "Look at it! Ohhh! Wallpaper's a little faded, that's okay. Carpet's a little loose. Hardwood floors!!",
             "emotion": "joy",
             "annotation": "1300010"
         },
@@ -6308,7 +6308,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Oh! Ooh! Oh Monica! It\u0092s so beautiful.",
+            "utterance": "Oh! Ooh! Oh Monica! It's so beautiful.",
             "emotion": "joy",
             "annotation": "0300020"
         },
@@ -6320,7 +6320,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "So, I\u0092m here, ready to play.",
+            "utterance": "So, I'm here, ready to play.",
             "emotion": "joy",
             "annotation": "2300000"
         },
@@ -6338,13 +6338,13 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "What\u0092s this?",
+            "utterance": "What's this?",
             "emotion": "surprise",
             "annotation": "1000040"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "That\u0092s a dog, every house should have a dog.",
+            "utterance": "That's a dog, every house should have a dog.",
             "emotion": "joy",
             "annotation": "2300000"
         },
@@ -6356,7 +6356,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Well, maybe it\u0092s so big because the house was built on radioactive waste.",
+            "utterance": "Well, maybe it's so big because the house was built on radioactive waste.",
             "emotion": "non-neutral",
             "annotation": "2100011"
         },
@@ -6368,19 +6368,19 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "No, no, that\u0092s the ghost for the attic.",
+            "utterance": "No, no, that's the ghost for the attic.",
             "emotion": "neutral",
             "annotation": "4000001"
         },
         {
             "speaker": "Monica",
-            "utterance": "I don\u0092t want a ghost.",
+            "utterance": "I don't want a ghost.",
             "emotion": "fear",
             "annotation": "0004001"
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Well, nobody wants a ghost. But you\u0092ve got one, because the house is sitting on an ancient Indian burial ground.",
+            "utterance": "Well, nobody wants a ghost. But you've got one, because the house is sitting on an ancient Indian burial ground.",
             "emotion": "neutral",
             "annotation": "4000001"
         },
@@ -6392,7 +6392,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Okay, obviously you don\u0092t know much about the U.S. government.",
+            "utterance": "Okay, obviously you don't know much about the U.S. government.",
             "emotion": "neutral",
             "annotation": "3000011"
         },
@@ -6416,7 +6416,7 @@
         },
         {
             "speaker": "Ross",
-            "utterance": "Sure, what\u0092s up?",
+            "utterance": "Sure, what's up?",
             "emotion": "neutral",
             "annotation": "4000010"
         }
@@ -6490,7 +6490,7 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "Hey, my Father\u0092s house does that!",
+            "utterance": "Hey, my Father's house does that!",
             "emotion": "surprise",
             "annotation": "0100040"
         },
@@ -6502,7 +6502,7 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "Well, the movie was great, dinner was great, and there\u0092s nothing like a cool, crisp New York evening.",
+            "utterance": "Well, the movie was great, dinner was great, and there's nothing like a cool, crisp New York evening.",
             "emotion": "neutral",
             "annotation": "3200000"
         },
@@ -6514,7 +6514,7 @@
         },
         {
             "speaker": "Chandler",
-            "utterance": "Of course, I didn\u0092t get to enjoy any of that, because Joanna\u0092s such a",
+            "utterance": "Of course, I didn't get to enjoy any of that, because Joanna's such a",
             "emotion": "disgust",
             "annotation": "0000203"
         }
@@ -6522,13 +6522,13 @@
     [
         {
             "speaker": "Monica",
-            "utterance": "Okay. It\u0092s Emma.",
+            "utterance": "Okay. It's Emma.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Rachel",
-            "utterance": "Emma!  See? I don\u0092t want it.",
+            "utterance": "Emma!  See? I don't want it.",
             "emotion": "non-neutral",
             "annotation": "1000022"
         },
@@ -6546,7 +6546,7 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "It\u0092s clearly an Emma.",
+            "utterance": "It's clearly an Emma.",
             "emotion": "neutral",
             "annotation": "4100000"
         },
@@ -6564,37 +6564,37 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "Besides y\u0092know, nothing goes with Bing.",
+            "utterance": "Besides y'know, nothing goes with Bing.",
             "emotion": "neutral",
             "annotation": "3100100"
         },
         {
             "speaker": "Monica",
-            "utterance": "So I\u0092m screwed.",
+            "utterance": "So I'm screwed.",
             "emotion": "non-neutral",
             "annotation": "1110101"
         },
         {
             "speaker": "Monica",
-            "utterance": "I mean\u0085  Oh, hi Emma.",
+            "utterance": "I mean…  Oh, hi Emma.",
             "emotion": "neutral",
             "annotation": "3100010"
         },
         {
             "speaker": "Monica",
-            "utterance": "Yeah, that\u0092s you.",
+            "utterance": "Yeah, that's you.",
             "emotion": "neutral",
             "annotation": "3200000"
         },
         {
             "speaker": "Monica",
-            "utterance": "You\u0092re our little Em.",
+            "utterance": "You're our little Em.",
             "emotion": "joy",
             "annotation": "1400000"
         },
         {
             "speaker": "Monica",
-            "utterance": "Oh what\u0092s that honey?",
+            "utterance": "Oh what's that honey?",
             "emotion": "surprise",
             "annotation": "0200030"
         },
@@ -6626,7 +6626,7 @@
     [
         {
             "speaker": "Chandler",
-            "utterance": "Oh-oh, I'm a duck! I go, \"Quack, quack!\" I\u0092m happy all the time!",
+            "utterance": "Oh-oh, I'm a duck! I go, \"Quack, quack!\" I'm happy all the time!",
             "emotion": "joy",
             "annotation": "0300110"
         },
@@ -6736,13 +6736,13 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "Listen, the number that you gave me 853-5\u0085   That is their old number!",
+            "utterance": "Listen, the number that you gave me 853-5…   That is their old number!",
             "emotion": "anger",
             "annotation": "2000300"
         },
         {
             "speaker": "Monica",
-            "utterance": "Jenny\u0092s been giving it out since they moved!",
+            "utterance": "Jenny's been giving it out since they moved!",
             "emotion": "anger",
             "annotation": "1000310"
         },
@@ -6784,13 +6784,13 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "Y\u0092know what Greg?",
+            "utterance": "Y'know what Greg?",
             "emotion": "anger",
             "annotation": "0000320"
         },
         {
             "speaker": "Monica",
-            "utterance": "Y\u0092know what?",
+            "utterance": "Y'know what?",
             "emotion": "anger",
             "annotation": "0000320"
         },
@@ -6804,7 +6804,7 @@
     [
         {
             "speaker": "Joey",
-            "utterance": "Hey Chandler! Y\u0092know that girl you went to college with who-who became a movie director?",
+            "utterance": "Hey Chandler! Y'know that girl you went to college with who-who became a movie director?",
             "emotion": "neutral",
             "annotation": "3000020"
         },
@@ -6816,25 +6816,25 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "What\u0092s a Movement class?",
+            "utterance": "What's a Movement class?",
             "emotion": "neutral",
             "annotation": "4000010"
         },
         {
             "speaker": "Monica",
-            "utterance": "It\u0092s Chandler\u0092s way of pretending he didn\u0092t take mime.",
+            "utterance": "It's Chandler's way of pretending he didn't take mime.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
         {
             "speaker": "Joey",
-            "utterance": "Oh well listen, anyway she\u0092s directing the new Al Pacino movie. You gotta get me an audition!",
+            "utterance": "Oh well listen, anyway she's directing the new Al Pacino movie. You gotta get me an audition!",
             "emotion": "joy",
             "annotation": "1300010"
         },
         {
             "speaker": "Chandler",
-            "utterance": "Oh, I don\u0092t know man. I haven\u0092t talked to her in like ten years.",
+            "utterance": "Oh, I don't know man. I haven't talked to her in like ten years.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -6846,7 +6846,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Joey, what are you talking about? You\u0092re a terrific actor.",
+            "utterance": "Joey, what are you talking about? You're a terrific actor.",
             "emotion": "neutral",
             "annotation": "3000020"
         },
@@ -6878,7 +6878,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "This one doesn't hurt either\u0097Ooh, yes it does!",
+            "utterance": "This one doesn't hurt either—Ooh, yes it does!",
             "emotion": "surprise",
             "annotation": "1001030"
         },
@@ -6952,7 +6952,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Oh, honey, don\u0092t worry. She's gonna make it on time.",
+            "utterance": "Oh, honey, don't worry. She's gonna make it on time.",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -7038,7 +7038,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "Uh, it\u0092s from yore. Like the days of yore. Y\u0092know?",
+            "utterance": "Uh, it's from yore. Like the days of yore. Y'know?",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -7050,7 +7050,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "God, oh it\u0092s just perfect!",
+            "utterance": "God, oh it's just perfect!",
             "emotion": "joy",
             "annotation": "0500000"
         },
@@ -7074,7 +7074,7 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "Like y\u0092know where it was from or",
+            "utterance": "Like y'know where it was from or",
             "emotion": "neutral",
             "annotation": "5000000"
         },
@@ -7094,7 +7094,7 @@
     [
         {
             "speaker": "Chandler",
-            "utterance": "So, you still don\u0092t think I\u0092m boyfriend material?",
+            "utterance": "So, you still don't think I'm boyfriend material?",
             "emotion": "non-neutral",
             "annotation": "2110100"
         },
@@ -7118,13 +7118,13 @@
         },
         {
             "speaker": "Phoebe",
-            "utterance": "\u0093Good-bye Phoebe and Ursula. I\u0092ll miss you. P.S. Your Mom lives in Montauk.\u0094 You just wrote this!",
+            "utterance": "“Good-bye Phoebe and Ursula. I'll miss you. P.S. Your Mom lives in Montauk.” You just wrote this!",
             "emotion": "non-neutral",
             "annotation": "0110210"
         },
         {
             "speaker": "Ursula",
-            "utterance": "Well, it\u0092s pretty much the gist. Well, except for the poem. You read the poem, right?",
+            "utterance": "Well, it's pretty much the gist. Well, except for the poem. You read the poem, right?",
             "emotion": "neutral",
             "annotation": "4000100"
         },
@@ -7144,7 +7144,7 @@
     [
         {
             "speaker": "Monica",
-            "utterance": "Rachel, it\u0092s going to happen. Chandler is gonna move in here.",
+            "utterance": "Rachel, it's going to happen. Chandler is gonna move in here.",
             "emotion": "neutral",
             "annotation": "4100000"
         },
@@ -7168,7 +7168,7 @@
         },
         {
             "speaker": "Monica",
-            "utterance": "This isn\u0092t something that we just, we just impulsively decided in-in Vegas, this is something we both really want.",
+            "utterance": "This isn't something that we just, we just impulsively decided in-in Vegas, this is something we both really want.",
             "emotion": "neutral",
             "annotation": "3100100"
         },
@@ -7192,7 +7192,7 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "I mean we\u0092re not, we\u0092re not gonna live together anymore?",
+            "utterance": "I mean we're not, we're not gonna live together anymore?",
             "emotion": "sadness",
             "annotation": "0040010"
         },
@@ -7204,19 +7204,19 @@
         },
         {
             "speaker": "Rachel",
-            "utterance": "What? Oh my God! I\u0092m gonna miss you so much!",
+            "utterance": "What? Oh my God! I'm gonna miss you so much!",
             "emotion": "sadness",
             "annotation": "0040010"
         },
         {
             "speaker": "Monica",
-            "utterance": "I\u0092m gonna miss you!",
+            "utterance": "I'm gonna miss you!",
             "emotion": "sadness",
             "annotation": "0050000"
         },
         {
             "speaker": "Rachel",
-            "utterance": "I mean it\u0092s the end of an era!",
+            "utterance": "I mean it's the end of an era!",
             "emotion": "sadness",
             "annotation": "0050000"
         },
