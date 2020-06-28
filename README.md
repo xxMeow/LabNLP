@@ -16,8 +16,12 @@
 - numpy
 
 ### 실행방법
-
-
+#### 모델 생성
+<code>
+git clone https://github.com/xxMeow/LabNLP.git
+cd Korean
+python3 make_model.py
+</code>
 
 ### 참고한 오픈소스
 
