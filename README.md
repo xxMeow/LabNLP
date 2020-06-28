@@ -18,8 +18,8 @@
 ### 실행방법
 #### 모델 생성
 <code>
-git clone https://github.com/xxMeow/LabNLP.git
-cd Korean
+git clone https://github.com/xxMeow/LabNLP.git  <br>
+cd Korean <br>
 python3 make_model.py
 </code>
 
