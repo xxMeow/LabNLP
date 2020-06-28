@@ -2,7 +2,7 @@
 
 ## 1. 한국어 감정 분석
 
-### 필요한 모듈
+### 필요한 라이브러리
 
 - pandas
 - urllib
@@ -15,7 +15,7 @@
 - os
 
 ### 실행방법
-python3와 jdk, 필요한 모듈들이 모두 설치되어 있는지 확인하고 없을 시 설치할 것
+python3와 jdk, 필요한 라이브러리들이 모두 설치되어 있는지 확인하고 없을 시 설치할 것
 #### 모델 생성
 - 프로젝트를 clone <br>
 ``` git clone https://github.com/xxMeow/LabNLP.git ``` <br>
@@ -33,10 +33,8 @@ https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_
 
 ## 2. 영어 감정 분석
 
-### 필요한 모델
+### 필요한 라이브러리
 
-- python3
-- jdk
 - json
 - os
 - re
