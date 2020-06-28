@@ -2,10 +2,8 @@
 
 ## 1. 한국어 감정 분석
 
-### 필요한 모델
+### 필요한 모듈
 
-- python3
-- jdk
 - pandas
 - urllib
 - matplotlib
@@ -14,14 +12,17 @@
 - tensorflow
 - keras
 - numpy
+- os
 
 ### 실행방법
+python3와 jdk, 필요한 모듈들이 모두 설치되어 있는지 확인하고 없을 시 설치할 것
 #### 모델 생성
-<code>
-git clone https://github.com/xxMeow/LabNLP.git  <br>
-cd Korean <br>
-python3 make_model.py
-</code>
+- 프로젝트를 clone <br>
+``` git clone https://github.com/xxMeow/LabNLP.git ``` <br>
+- 한글 폴더로 이동 <br>
+``` cd Korean ``` <br>
+- 모델 생성 파일을 실행 <br>
+``` python3 make_model.py ``` <br>
 
 ### 참고한 오픈소스
 
