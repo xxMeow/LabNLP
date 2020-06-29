@@ -319,11 +319,11 @@ X_test = pad_sequences(X_test, maxlen=max_len)
 
 
 # 2. 모델 불러오기
-json_file = open("best_model_3.json", "r")
+json_file = open("best_model_3.json", "r")  # 적용을 원하는 모델의 json파일
 loaded_model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(loaded_model_json)
-loaded_model.load_weights("best_model_3.h5")
+loaded_model.load_weights("best_model_3.h5")  # 적용을 원하는 모델의 h5파일
 loaded_model.compile(optimizer='rmsprop',
                      loss=f1_loss, metrics=['acc'])
 
@@ -334,7 +334,7 @@ result = loaded_model.predict_classes(X_test)
 loaded_result = pd.read_csv('data/ko_sample.csv')
 loaded_result["Predicted"] = result
 print(loaded_result)
-loaded_result.to_csv('data/ko_result_3.csv', index=None)
+loaded_result.to_csv('data/ko_result_3.csv', index=None)  # 결과가 저장될 파일 이름
 
 # 이 아래쪽을 지워주세요
 '''
