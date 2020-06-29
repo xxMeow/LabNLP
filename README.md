@@ -2,6 +2,9 @@
 
 ## 1. 한국어 감정 분석
 
+### 개발환경
+python3
+
 ### 필요한 라이브러리
 
 - pandas
@@ -21,6 +24,7 @@ python3와 jdk, 필요한 라이브러리들이 모두 설치되어 있는지 �
 ``` git clone https://github.com/xxMeow/LabNLP.git ``` <br>
 - 한글 폴더로 이동 <br>
 ``` cd Korean ``` <br>
+- 모델의 실제 사용을 원할 시, kaggle에서 다운받은 ko_data.csv오 ko_sample.csv 파일을 data 폴더에 넣어둘 것
 - 모델 생성 파일을 실행 <br>
 ``` python3 make_model.py ``` <br>
 
@@ -43,16 +47,17 @@ https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_
 - numpy
 - tensorflow
 - keras
+- csv
 
 ### 실행방법
 
 ##### Google Colab으로 실행
-
-- [English.ipynb](https://github.com/xxMeow/LabNLP/blob/master/English/English.ipynb) 파일 다운로드
-- 다운로드 받은 파일을 [Colab](https://colab.research.google.com/)에서 열기
-
-- 윈쪽 파일 텝에 `friends_dev.json`, `friends_train.json`, `friends_test.json` 파일 추가
-- 코드 실행
+- 프로젝트를 clone (이미 clone했다면 불필요)<br>
+``` git clone https://github.com/xxMeow/LabNLP.git ``` <br>
+- 영어 폴더로 이동 <br>
+``` cd English ``` <br>
+- 모델 생성 파일을 실행 <br>
+``` python3 make_model.py ``` <br>
 
 ### 참고한 오픈소스
 

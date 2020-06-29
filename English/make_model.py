@@ -1,3 +1,7 @@
+'''
+import Libraries
+'''
+
 # -*- coding: utf-8 -*-
 
 from tensorflow.keras.models import model_from_json
@@ -24,7 +28,13 @@ from keras.models import Sequential
 nltk.download('stopwords')
 
 
+'''
+Preprocessing
+'''
+
+
 def printDialogs(dialogs):
+    # 디버깅용 print 함수
     for dialog in dialogs:
         for speaking in dialog:
             for key in speaking:
@@ -70,8 +80,6 @@ def loadDialogs(jsonFileName):
             # 공백 제거 & lowercase로 변환
             speaking["utterance"] = (
                 re.sub(pattern, " ", speaking["utterance"])).lower()
-            # speaking["utterance"] = speaking["utterance"].replace(
-            #    "[^a-z ]", "")
             speaking["utterance"] = re.sub(
                 "[^a-z ]", "", speaking["utterance"])
 
@@ -82,28 +90,32 @@ def tokenizeDialogs(dialogs):
     friendsStopwords = stopwords.words("english")
     for dialog in dialogs:
         for speaking in dialog:
-            # print(speaking["utterance"])  # 데이터를 확인하기 위해 command line에다 출려함
             speaking["utterance"] = nltk.regexp_tokenize(
                 speaking["utterance"], "[\w']+")  # nltk와 정규표현식을 이용하여 토큰화
             speaking["utterance"] = [
                 word for word in speaking['utterance'] if word not in friendsStopwords]
-            # print(speaking["utterance"])  # 데이터를 확인하기 위해 command line에다 출려함
     return dialogs
 
-    # Process real data!!
+
+# 원본 JSON파일을 preprocess해서 _new파일 생성
 path = os.getcwd() + "/"
 jsonFileNames = ["friends_train", "friends_dev", "friends_test"]
 for jsonFileName in jsonFileNames:
     dialogs = loadDialogs(path + jsonFileName)
     tokenizeDialogs(dialogs)
-    # 새 JSON파일 이름은 원래 이름 뒤에다가 "_new"를 붙여서 generate됨
+    # 새 JSON파일 이름은 원래 이름 뒤에 "_new"를 붙여서 generate됨
     generateNewJson(path + jsonFileName, dialogs)
     # 처리된 데이터들은 friends_xxx_new.json 파일에서 확인가능
 
-# preprocess된 json파일로부터 utterance와 annotation을 읽어옵니다
+
+'''
+DataFrame 생성
+'''
 
 
 def loadUtteranceSet(jsonFileName):  # Load clean dialogs from JSON
+    # Json파일 당 하나의 utteranceSet을 생성
+    # preprocess된 json파일로부터 utterance와 annotation을 읽어옴
     with open(jsonFileName + ".json") as jsonFile:
         dialogs = json.load(jsonFile)  # Read JSON
 
@@ -112,19 +124,18 @@ def loadUtteranceSet(jsonFileName):  # Load clean dialogs from JSON
             for speaking in dialog:
                 utterance = []
                 utterance.append(speaking["utterance"])
-#                utterance.append(speaking["annotation"])
                 utterance.append(speaking["emotion"])
-# 결과가 이상해서 임시로 emotion으로 해 보았습니다.
                 utteranceSet.append(utterance)
     return utteranceSet
 
 
 def makeDataFrame(utteranceSet):
-    # 두 column의 이름을 지정해주며 dataframe을 생성합니다
+    # utteranceSet 각각으로 두 column의 이름을 지정해주며 dataframe을 생성
     frame = pd.DataFrame(utteranceSet, columns=["utterance", "annotation"])
     return frame
 
 
+# 새 Json파일로 DataFrame 생성
 path = os.getcwd() + "/"
 jsonFileNames = ["friends_dev_new", "friends_test_new",
                  "friends_train_new"]  # 읽고자 하는 파일 이름을 확장자 없이 여기에 넣으시면 됩니다
@@ -134,14 +145,11 @@ for jsonFileName in jsonFileNames:
     utteranceSet = loadUtteranceSet(path + jsonFileName)
     # pandas로 frame 하나를 생성해서 리스트에 추가
     frames.append(makeDataFrame(utteranceSet))
+
+
 '''
-for i in range(len(jsonFileNames)):  # 앞서 만든 dataframe들을 하나씩 출력해봅니다
-    print("< " + jsonFileNames[i] +
-          " > -------------------------------------------------")
-    print(frames[i])
-    print()
+데이터 패딩 및 정수화
 '''
-# printTopUtterances(utterances, 5)
 
 dev_data = frames[0]
 test_data = frames[1]
@@ -160,11 +168,11 @@ rare_cnt = 0  # 등장 빈도수가 threshold보다 작은 단어의 개수를 �
 total_freq = 0  # 훈련 데이터의 전체 단어 빈도수 총 합
 rare_freq = 0  # 등장 빈도수가 threshold보다 작은 단어의 등장 빈도수의 총 합
 
-# 단어와 빈도수의 쌍(pair)을 key와 value로 받는다.
+# 단어와 빈도수의 쌍(pair)을 key와 value로 받음
 for key, value in tokenizer.word_counts.items():
     total_freq = total_freq + value
 
-    # 단어의 등장 빈도수가 threshold보다 작으면
+    # 단어의 등장 빈도수가 threshold보다 작을 경우
     if(value < threshold):
         rare_cnt = rare_cnt + 1
         rare_freq = rare_freq + value
@@ -201,8 +209,6 @@ y_test = np.delete(y_test, drop_test, axis=0)
 X_dev = np.delete(X_dev, drop_dev, axis=0)
 y_dev = np.delete(y_dev, drop_dev, axis=0)
 
-# 패딩
-
 
 def below_threshold_len(max_len, nested_list):
     cnt = 0
@@ -220,6 +226,7 @@ X_dev = pad_sequences(X_dev, maxlen=max_len)
 
 
 def trans_y(y):
+    # y 정수화
     emotionMap = {
         'neutral': 0,
         'joy': 1,
@@ -239,14 +246,13 @@ def trans_y(y):
 y_dev = np.array(trans_y(y_dev))
 y_test = np.array(trans_y(y_test))
 y_train = np.array(trans_y(y_train))
+
+
 '''
-print(len(X_dev))
-print(len(y_dev))
-print(len(X_test))
-print(len(y_test))
-print(len(X_train))
-print(len(y_train))
+모델 생성
 '''
+
+# f1 score 계산 함수
 
 
 def f1(y_true, y_pred):
@@ -348,6 +354,10 @@ history = model.fit(X_train, y_train, epochs=15, callbacks=[
                     es, mc], batch_size=60, validation_split=0.1)
 
 
+'''
+모델 정확도 측정
+'''
+
 json_file = open("best_model_1.json", "r")
 loaded_model_json = json_file.read()
 json_file.close()
@@ -355,7 +365,8 @@ loaded_model = model_from_json(loaded_model_json)
 loaded_model.load_weights("best_model_1.h5")
 loaded_model.compile(optimizer='rmsprop',
                      loss=f1_loss, metrics=['acc'])
-print("\n 테스트 정확도: %.4f" % (loaded_model.evaluate(X_test, y_test)[1]))
+print("\n 순환 신경망 모델의 테스트 정확도: %.4f" %
+      (loaded_model.evaluate(X_test, y_test)[1]))
 
 json_file = open("best_model_2.json", "r")
 loaded_model_json = json_file.read()
@@ -364,7 +375,8 @@ loaded_model = model_from_json(loaded_model_json)
 loaded_model.load_weights("best_model_2.h5")
 loaded_model.compile(optimizer='rmsprop',
                      loss=f1_loss, metrics=['acc'])
-print("\n 테스트 정확도: %.4f" % (loaded_model.evaluate(X_test, y_test)[1]))
+print("\n 컨볼루션 신경망 모델의 테스트 정확도: %.4f" %
+      (loaded_model.evaluate(X_test, y_test)[1]))
 
 json_file = open("best_model_3.json", "r")
 loaded_model_json = json_file.read()
@@ -373,4 +385,5 @@ loaded_model = model_from_json(loaded_model_json)
 loaded_model.load_weights("best_model_3.h5")
 loaded_model.compile(optimizer='rmsprop',
                      loss=f1_loss, metrics=['acc'])
-print("\n 테스트 정확도: %.4f" % (loaded_model.evaluate(X_test, y_test)[1]))
+print("\n 순환 컨볼루션 신경망 모델의 테스트 정확도: %.4f" %
+      (loaded_model.evaluate(X_test, y_test)[1]))
