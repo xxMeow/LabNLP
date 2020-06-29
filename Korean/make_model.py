@@ -284,7 +284,7 @@ print("\n 순환 컨볼루션 신경망 모델의 테스트 정확도: %.4f" %
 '''
 
 '''
-이 윗줄을 지워주세요
+# 이 윗줄을 지워주세요
 
 # 1. 실무에 사용할 데이터 준비하기
 test_data = pd.read_csv('data/ko_data.csv', encoding='CP949')
@@ -336,5 +336,5 @@ loaded_result["Predicted"] = result
 print(loaded_result)
 loaded_result.to_csv('data/ko_result_3.csv', index=None)
 
-이 아래쪽을 지워주세요
+# 이 아래쪽을 지워주세요
 '''
