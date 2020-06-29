@@ -17,7 +17,7 @@ python3
 - os
 
 ### 실행방법
-python3와 jdk(KoNLPy 사용에 필요), 필요한 라이브러리들이 모두 설치되어 있는지 확인하고 없을 시 설치할 것
+python3와 JDK(KoNLPy 사용에 필요), 필요한 라이브러리들이 모두 설치되어 있는지 확인하고 없을 시 설치할 것
 - 프로젝트를 clone <br>
 ``` git clone https://github.com/xxMeow/LabNLP.git ``` <br>
 - 한글 폴더로 이동 <br>
