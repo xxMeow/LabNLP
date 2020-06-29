@@ -387,3 +387,112 @@ loaded_model.compile(optimizer='rmsprop',
                      loss=f1_loss, metrics=['acc'])
 print("\n 순환 컨볼루션 신경망 모델의 테스트 정확도: %.4f" %
       (loaded_model.evaluate(X_test, y_test)[1]))
+
+
+'''
+모델을 사용하고 싶을 때는 아래쪽 코드의 주석을 해제
+'''
+
+'''
+# 이 윗줄을 지워주세요
+
+def makeDataFrame(csvData):
+    utteranceSet = []  # ONE utteranceSet for ONE file (dialog별로 구분되지 않습니다)
+    for line in csvData:
+        line[4] = nltk.regexp_tokenize(
+            line[4], "[\w']+")  # nltk와 정규표현식을 이용하여 토큰화
+        utterance = []
+        utterance.append(line[0])  # id
+        utterance.append(line[4])  # utterance
+        utteranceSet.append(utterance)
+
+    # 두 column의 이름을 지정해주며 dataframe을 생성합니다
+    frame = pd.DataFrame(utteranceSet, columns=["id", "utterance"])
+    return frame
+
+# csv파일 읽기
+en_data = []
+removeMap = {  # 위 링크를 참고해서 인코딩을 mapping함
+        "\x85": "…",
+        "\x91": "'",
+        "\x92": "'",
+        "\x93": "\"",
+        "\x94": "\"",
+        "\x96": "-",
+        "\x97": "-",
+        "\xa0": "",
+        "\xe8": "e",
+        "\xe9": "e",
+        "\u2014": "-",
+        "\u2019": "'",
+        "\u2026": "…"
+    }
+with open("data/en_data.csv", "r", encoding="euc-kr") as csvFile:
+    csvData = csv.reader(csvFile)
+    for row in csvData:
+        for key in removeMap:
+            row[4] = row[4].replace(key, removeMap[key])
+        # print(row)
+        en_data.append(row)
+
+# make datafram
+en_data = en_data[1:]  # remove the first line
+en_frame = makeDataFrame(en_data)
+
+X_test = en_frame["utterance"].tolist()
+X_test = tokenizer.texts_to_sequences(X_test)
+
+
+def below_threshold_len(max_len, nested_list):
+    cnt = 0
+    for s in nested_list:
+        if(len(s) <= max_len):
+            cnt = cnt + 1
+
+
+max_len = 30
+X_test = pad_sequences(X_test, maxlen=max_len)
+
+
+# 2. 모델 불러오기
+json_file = open("best_model_3.json", "r")
+loaded_model_json = json_file.read()
+json_file.close()
+loaded_model = model_from_json(loaded_model_json)
+loaded_model.load_weights("best_model_3.h5")
+loaded_model.compile(optimizer='rmsprop',
+                     loss=f1_loss, metrics=['acc'])
+
+# 3. 모델 사용하기
+result = loaded_model.predict_classes(X_test)
+print(result[:5]) 
+
+def re_trans_y(y):
+    # y 정수화
+    emotionMap = {
+        0:'neutral',
+        1:'joy',
+        2:'sadness',
+        3:'fear',
+        4:'anger',
+        5:'surprise',
+        6:'disgust',
+        7:'non-neutral'
+    }
+    temp = []
+    for i in y:
+        temp.append(emotionMap.get(i, 'error'))
+    return temp
+    
+# 4. 결과 저장
+result=re_trans_y(result)
+print(result[:5]) 
+loaded_result = pd.read_csv('data/en_sample.csv')
+loaded_result["Predicted"] = result
+loaded_result=loaded_result.drop(["Expected"], axis=1)
+print(loaded_result)
+loaded_result.to_csv('data/en_result_3.csv', index=None)
+
+
+# 이 아래쪽을 지워주세요
+'''
