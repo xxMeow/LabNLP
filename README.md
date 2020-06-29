@@ -1,9 +1,9 @@
 # 자연어 처리 - 15조
 
-## 1. 한국어 감정 분석
-
 ### 개발환경
 python3
+
+## 1. 한국어 감정 분석
 
 ### 필요한 라이브러리
 
@@ -19,7 +19,6 @@ python3
 
 ### 실행방법
 python3와 jdk, 필요한 라이브러리들이 모두 설치되어 있는지 확인하고 없을 시 설치할 것
-#### 모델 생성
 - 프로젝트를 clone <br>
 ``` git clone https://github.com/xxMeow/LabNLP.git ``` <br>
 - 한글 폴더로 이동 <br>
@@ -28,12 +27,8 @@ python3와 jdk, 필요한 라이브러리들이 모두 설치되어 있는지 �
 - 모델 생성 파일을 실행 <br>
 ``` python3 make_model.py ``` <br>
 
-### 참고한 오픈소스
-
-https://wikidocs.net/44249 <br>
-https://tykimos.github.io/2017/06/10/Model_Save_Load/ <br>
-https://www.kaggle.com/rejpalcz/best-loss-function-for-f1-score-metric <br>
-https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/
+### 결과
+![KoreanResult](./image/korean_result.png)
 
 ## 2. 영어 감정 분석
 
@@ -50,8 +45,7 @@ https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_
 - csv
 
 ### 실행방법
-
-##### Google Colab으로 실행
+python3와 필요한 라이브러리들이 모두 설치되어 있는지 확인하고 없을 시 설치할 것
 - 프로젝트를 clone (이미 clone했다면 불필요)<br>
 ``` git clone https://github.com/xxMeow/LabNLP.git ``` <br>
 - 영어 폴더로 이동 <br>
@@ -59,7 +53,13 @@ https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_
 - 모델 생성 파일을 실행 <br>
 ``` python3 make_model.py ``` <br>
 
-### 참고한 오픈소스
+### 결과
+![EnglishResult](./image/english_result.png)
 
+## 3. 참고한 오픈소스
+https://wikidocs.net/44249 <br>
+https://tykimos.github.io/2017/06/10/Model_Save_Load/ <br>
+https://www.kaggle.com/rejpalcz/best-loss-function-for-f1-score-metric <br>
+https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/ <br>
 https://medium.com/appening-io/emotion-classification-2d4ed93bf4e2
 

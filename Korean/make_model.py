@@ -13,6 +13,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.layers import Embedding, Dense, LSTM
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.models import load_model
+from tensorflow.keras.models import model_from_json
 from tensorflow.keras.callbacks import EarlyStopping
 from keras.callbacks import ModelCheckpoint
 from keras.layers import Conv1D, GlobalMaxPooling1D, MaxPooling1D
