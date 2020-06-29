@@ -9,7 +9,6 @@ python3
 
 - pandas
 - urllib
-- matplotlib
 - re
 - konlpy
 - tensorflow

@@ -4,7 +4,6 @@ import Libraries
 
 import pandas as pd
 import urllib.request
-import matplotlib.pyplot as plt
 import re
 from konlpy.tag import Okt
 from tensorflow.keras.preprocessing.text import Tokenizer
